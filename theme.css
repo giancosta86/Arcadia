@@ -1,0 +1,26 @@
+.leftAligned{	
+	text-align: left;	
+}
+
+
+#author {
+	text-align: center;
+	font-size: 200%;
+}
+
+#title {			
+	text-align: center;
+	font-size: 400%;
+}
+
+
+.poem h1 {	
+	text-align: center;
+}
+
+
+.poem p {
+	text-align: center;
+	font-style: italic;	
+}
+

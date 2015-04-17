@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">    
+    <head>
+        <meta name="dtb:uid" content="http://gianlucacosta.info/arcadia"/>
+    </head>
+    
+    <docTitle>
+        <text>Arcadia</text>
+    </docTitle>
+	
+    <docAuthor>
+        <text>Gianluca Costa</text>
+    </docAuthor>
+
+    <navMap>
+        <navPoint id="coverPage">
+            <navLabel>
+                <text>Frontespizio</text>
+            </navLabel>
+			
+            <content src="coverPage.xhtml"/>
+        </navPoint>
+
+		
+        <navPoint id="copyright">
+            <navLabel>
+                <text>Copyright</text>
+            </navLabel>
+			
+            <content src="copyright.xhtml"/>
+        </navPoint>
+
+		
+        <navPoint id="tableOfContents">
+            <navLabel>
+                <text>Sommario</text>
+            </navLabel>
+			
+            <content src="tableOfContents.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="introduction">
+            <navLabel>
+                <text>Introduzione</text>
+            </navLabel>
+			
+            <content src="introduction.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="le-nuvole">
+            <navLabel>
+                <text>Le nuvole</text>
+            </navLabel>
+			
+            <content src="le-nuvole.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="nel-vespro">
+            <navLabel>
+                <text>Nel vespro</text>
+            </navLabel>
+			
+            <content src="nel-vespro.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="la-rondine">
+            <navLabel>
+                <text>La rondine</text>
+            </navLabel>
+			
+            <content src="la-rondine.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="il-mare">
+            <navLabel>
+                <text>Il mare</text>
+            </navLabel>
+			
+            <content src="il-mare.xhtml"/>
+        </navPoint>		
+				
+		
+        <navPoint id="due-scoiattoli">
+            <navLabel>
+                <text>I due scoiattoli</text>
+            </navLabel>
+			
+            <content src="due-scoiattoli.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="arc-en-ciel">
+            <navLabel>
+                <text>L'arc-en-ciel</text>
+            </navLabel>
+			
+            <content src="arc-en-ciel.xhtml"/>
+        </navPoint>				
+		
+		
+        <navPoint id="aquila-pinguino">
+            <navLabel>
+                <text>L'aquila che amò un pinguino</text>
+            </navLabel>
+			
+            <content src="aquila-pinguino.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="le-biciclette">
+            <navLabel>
+                <text>Le biciclette</text>
+            </navLabel>
+			
+            <content src="le-biciclette.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="la-lune">
+            <navLabel>
+                <text>La lune</text>
+            </navLabel>
+			
+            <content src="la-lune.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="mezzanotte">
+            <navLabel>
+                <text>Mezzanotte</text>
+            </navLabel>
+			
+            <content src="mezzanotte.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="gemelli">
+            <navLabel>
+                <text>I gemelli</text>
+            </navLabel>
+			
+            <content src="gemelli.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="les-fleurs">
+            <navLabel>
+                <text>Les fleurs</text>
+            </navLabel>
+			
+            <content src="les-fleurs.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="augel-cristallo">
+            <navLabel>
+                <text>L'augel di cristallo</text>
+            </navLabel>
+			
+            <content src="augel-cristallo.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="cavalier-aurora">
+            <navLabel>
+                <text>Il cavalier dell'aurora</text>
+            </navLabel>
+			
+            <content src="cavalier-aurora.xhtml"/>
+        </navPoint>
+		
+		
+        <navPoint id="briscola">
+            <navLabel>
+                <text>Briscola</text>
+            </navLabel>
+			
+            <content src="briscola.xhtml"/>
+        </navPoint>
+    </navMap>
+</ncx>
