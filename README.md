@@ -16,9 +16,9 @@ Arcadia is mainly in ancient Italian and modern French - the introduction (taken
 
 ## Downloads
 
-* [MOBI format](https://github.com/giancosta86/Arcadia/releases/download/v1.0/Arcadia.mobi)
+* [MOBI format](https://github.com/giancosta86/Arcadia/releases/download/v1.0/arcadia.mobi)
 
-* [PDF format](https://github.com/giancosta86/Arcadia/releases/download/v1.0/Arcadia.pdf)
+* [PDF format](https://github.com/giancosta86/Arcadia/releases/download/v1.0/arcadia.pdf)
 
 
 
