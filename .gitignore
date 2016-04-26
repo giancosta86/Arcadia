@@ -1,1 +1,4 @@
-converted-arcadia.opf/**
+/converted-arcadia.opf/**
+/_site
+/.sass-cache
+/.jekyll-metadata
