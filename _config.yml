@@ -1,3 +1,4 @@
+#Site settings
 title: Arcadia
 email: gianluca@gianlucacosta.info
 description: Dreams and poetry
@@ -8,3 +9,5 @@ github_username:  giancosta86
 
 # Build settings
 markdown: kramdown
+
+permalink: /:title
