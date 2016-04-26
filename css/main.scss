@@ -30,6 +30,8 @@ $on-laptop:        800px;
 
 
 
+$title-color: darken($brand-color, 15%);
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {

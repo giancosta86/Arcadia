@@ -2,7 +2,11 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <a class="site-title" href="{{ site.baseurl }}/">
+      <img class="site-logo" src="{{ site.baseurl }}/arcadia.png" src="Logo" />
+      rcadia
+    </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -20,11 +24,8 @@
           {% endif %}
         {% endfor %}
 
-        <a class="page-link" href="https://github.com/giancosta86/Arcadia/releases/download/v1.0/arcadia.pdf">Free PDF e-book</a>
-        <a class="page-link" href="https://github.com/giancosta86/Arcadia/releases/download/v1.0/arcadia.mobi">Free Kindle e-book</a>
+        <a class="page-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
       </div>
-
-
     </nav>
 
   </div>
