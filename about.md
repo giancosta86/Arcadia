@@ -14,7 +14,7 @@ You might want to visit the [GitHub project](https://github.com/giancosta86/Arca
 
 ## License
 
-All the material provided on Arcadia's website area and in its GitHub repository is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](https://creativecommons.org/licenses/by-nc-nd/3.0/).
+All the material related to Arcadia's project - in the branches of its GitHub repository - is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](https://creativecommons.org/licenses/by-nc-nd/3.0/).
 
 
 ## Publication dates
