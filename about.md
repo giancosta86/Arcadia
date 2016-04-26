@@ -8,8 +8,9 @@ title: About
 
 Arcadia also features an [e-book]({{site.baseurl}}/e-book) containing all the poems published from June 2013 to June 2014.
 
-
 You might want to visit the [GitHub project](https://github.com/giancosta86/Arcadia) to learn more about the technical structure and the source files of an e-book.
+
+Finally, you are all invited to follow its [Facebook page](https://www.facebook.com/Arcadia-Poems-1404281936471835)! ^\_\_^!
 
 
 ## License
