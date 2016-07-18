@@ -14,15 +14,7 @@
 }
 
 
-.site-title {
-    font-size: 4em;
-    font-weight: 800;
-    line-height: 2em;
-
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
+.titleBlock {
     &,
     &:visited {
         color: $title-color;
@@ -32,28 +24,38 @@
       color: lighten($title-color, 5%)
     }
 
-    .subtitle {
-      font-size: 0.30em;
-      font-weight: normal;
-      font-style: italic;
-      position: relative;
-      line-height: 0.30em;
-      margin-top: -1em;
-      margin-left: 0.5em;
+    float: left;
+
+    .title {
+      font-size: 4em;
+      font-weight: 800;
+      line-height: 2em;
+
+      letter-spacing: -1px;
+      margin-bottom: 0;
+      margin-top: -0.2em;
     }
-}
 
 
-.site-logo {
-  float: left;
-  margin-top: 0.5em;
+    .logo {
+      float: left;
+      margin-top: 0.5em;
+    }
+
+
+    .subtitle {
+      font-size: 1em;
+      font-style: italic;
+      margin-top: -1.45em;
+      margin-left: 0.6em;
+    }
 }
 
 
 .site-nav {
     float: right;
     line-height: 56px;
-    margin-top: 2.5em;
+    margin-top: 2em;
 
     .menu-icon {
         display: none;
