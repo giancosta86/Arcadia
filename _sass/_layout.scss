@@ -31,6 +31,16 @@
     &:hover {
       color: lighten($title-color, 5%)
     }
+
+    .subtitle {
+      font-size: 0.30em;
+      font-weight: normal;
+      font-style: italic;
+      position: relative;
+      line-height: 0.30em;
+      margin-top: -1em;
+      margin-left: 0.5em;
+    }
 }
 
 
