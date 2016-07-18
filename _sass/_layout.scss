@@ -222,6 +222,16 @@
 }
 
 
+
+#backToHomePage {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  font-weight: bold;
+}
+
+
+
 @include media-query($on-laptop) {
   .post-title {
     font-size: 2em;
@@ -230,5 +240,11 @@
 
   .post-content p {
     font-size: 1em;
+  }
+
+
+  #backToHomePage {
+    margin-top: 3em;
+    margin-bottom: 1em;
   }
 }
