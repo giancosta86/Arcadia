@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Fata Pinguina"
+---
+
+Saltellan pei boschi scoiattoli buffi\\
+e il gufo dal tronco assonnato si desta\\
+mentre altri augelli, pescando, gran tuffi\\
+compion sull'acqua, che scorre via lesta;
+
+da lungi s'ascolta, primaverile,\\
+tra fronde levarsi, in sereno crescendo,\\
+semplice un canto, lezioso e gentile,\\
+allor che si va il tramonto spegnendo:
+
+incede con aura di gran simpatia\\
+figura fiabesca, ridente ed arcana,\\
+qui giunta dal mondo ove magia\\
+norma è comune, non cosa strana.
+
+Fata Pinguina è da tutti nomata\\
+poiché seco porta sempre un pinguino\\
+qual suo famiglio, di piuma pregiata,\\
+che pur lieto ridere fa ogni bambino;
+
+garbato e nobile anche il consorte,\\
+dal bel volto dolce, di fascino intriso,\\
+sempre ha al suo fianco, del Fato le porte\\
+insieme schiudendo, ognor col sorriso.
+
+Amor non le cantano, ma amica sincera\\
+i poeti la stimano, come la brezza\\
+che spira dal mare, quando la sera\\
+sui colli discende con sua compostezza.
+
+Narra leggenda che ai pargoli buoni\\
+rechi, ondeggiando sua arcana bacchetta,\\
+quei che bramavano dolciumi e doni,\\
+a tutti in misura di quanto lor spetta.
+
+Giovani intenti a leggere i versi\\
+che qui stanno scritti, mai non scordate\\
+di ben comportarvi, e con cori tersi\\
+in tenebre lumi di valor sempre siate.
