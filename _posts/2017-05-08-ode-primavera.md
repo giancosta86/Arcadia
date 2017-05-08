@@ -5,16 +5,16 @@ title:  "Ode di primavera"
 
 Un dì festoso prossimo\\
 era e splendente in cielo\\
-la sovrana cristallina\\
-avea di stelle un velo\\
+la sua sovrana eterea\\
+avea di astri un velo\\
 ornato quale magico\\
 preludio a quel che fu.
 
 Di mille genti il giubilo\\
-ridea chiassoso al vento\\
+ridea lieto al vento\\
 ma non sì da nascondere\\
-al guardo il lieto evento\\
-che ogni carta in tavolo\\
+al guardo il grande evento\\
+che ogni briscola in tavolo\\
 del Fato sparigliò:
 
 lui che fra tanti uomini\\
@@ -26,15 +26,15 @@ repente balenò.
 
 Tacere ogni poetica\\
 dovette allor favella,\\
-mentre arcano palpito\\
-battea primier per quella\\
-imago che incantevole\\
+mentre un ignoto palpito\\
+batté primier per quella\\
+imago che purissima\\
 nel cor si tratteggiò.
 
 Dal garbo impareggiabile,\\
 angelico quel viso\\
 disceso dall'empireo\\
-parea, di bontà intriso\\
+parve, tra fior assiso\\
 e fiamma accese insolita\\
 che impressa in alma sta;
 
@@ -45,7 +45,7 @@ ma pur dolente e inquieto,\\
 qual dolce lai melodico\\
 valente può temprar.
 
-Come colui che credere\\
+Come qualcun che credere\\
 non vuol senza provare,\\
 con tutti ragionevole\\
 discorre e tal parlare\\
@@ -60,20 +60,20 @@ che ardenti concupiscono\\
 cotal vaga beltà;
 
 intanto anche un filosofo\\
-per lui sincero affetto\\
-e per il suo discorrere\\
+sincer, sentito affetto\\
+per lui e quel discorrere\\
 celar non puote in petto,\\
 ché novo stil poetico\\
 ispira ed amistà.
 
 Ma canti invan si intonano:\\
-a nobil damigella\\
-ardente va il suo anelito\\
-scegliendola qual stella,\\
+gentile damigella\\
+di amore il suo anelito\\
+designa quale stella,\\
 luce soave e placida\\
 nel mar dell'avvenir;
 
-eppur bello è conoscere\\
+eppur buon è conoscere\\
 persona tanto rara,\\
 che splende quale zàffiro\\
 e come ode preclara\\
