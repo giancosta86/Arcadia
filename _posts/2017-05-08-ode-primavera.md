@@ -11,10 +11,10 @@ ornato quale magico\\
 preludio a quel che fu.
 
 Di mille genti il giubilo\\
-ridea lieto al vento\\
+rideva lieto al vento\\
 ma non sì da nascondere\\
 al guardo il grande evento\\
-che ogni briscola in tavolo\\
+che a ognun le carte in tavolo\\
 del Fato sparigliò:
 
 lui che fra tanti uomini\\
@@ -26,7 +26,7 @@ repente balenò.
 
 Tacere ogni poetica\\
 dovette allor favella,\\
-mentre un ignoto palpito\\
+mentre un arcano palpito\\
 batté primier per quella\\
 imago che purissima\\
 nel cor si tratteggiò.
@@ -45,7 +45,7 @@ ma pur dolente e inquieto,\\
 qual dolce lai melodico\\
 valente può temprar.
 
-Come qualcun che credere\\
+Come certun che credere\\
 non vuol senza provare,\\
 con tutti ragionevole\\
 discorre e tal parlare\\
