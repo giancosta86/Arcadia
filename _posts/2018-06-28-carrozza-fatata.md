@@ -1,0 +1,129 @@
+---
+layout: post
+title:  "La carrozza fatata"
+---
+
+Avea appena il sol passato\\
+l'orizzonte vespertino\\
+e un crepuscolo rosato\\
+verso sera ormai era chino;
+
+solitario il cavaliere,\\
+al galoppo, concentrato,\\
+repente vide il bel messere\\
+da cui era affascinato:
+
+la sua timida emozione\\
+nel veder quel viso caro\\
+gli fe' scherzo mascalzone\\
+e di motti il rese avaro;
+
+ma afferrò saldo il coraggio\\
+e si volse ritornando\\
+là ove il prence, come un raggio\\
+la penombra illuminando,
+
+per sé soletto aspettava,\\
+col suo fascino elegante,\\
+e curioso rimirava\\
+lo scenario circostante.
+
+Il bel prence sorridente,\\
+di una cortesia squisita,\\
+ratto prese soavemente\\
+a narrar della sua vita,
+
+e il cavalier gli rispondea\\
+raccontando sue vicende,\\
+mentre scuro il ciel si fea\\
+nell'ora in cui lampa s'accende:
+
+tra di loro somiglianti\\
+non tanto erano in aspetto,\\
+ma in etade e nei galanti\\
+modi pieni di rispetto.
+
+Quando ecco arrivar fatata\\
+carrozza che non da equini\\
+qual dardo era trainata,\\
+bensì da magici topini!
+
+Ahimé, vi dovea montare\\
+il principe onde a palagio\\
+dopo il die alfin tornare\\
+e gustar del sonno l'agio;
+
+ma era sì dolce chiacchierare\\
+con quel giglio delicato\\
+che il cavalier volle varcare\\
+pure lui il bel cocchio aurato:
+
+l'uno di fronte assiso\\
+era all'altro ed il discorso\\
+dal serioso al lieto riso\\
+ondeggiava nel suo corso.
+
+Il cavaliere affascinato\\
+si sentia dalla beltà\\
+di quell'uomo, ma attirato\\
+ne era pur da civiltà;
+
+gli piaceva proprio molto\\
+pei suoi modi sopraffini,\\
+pel carattere e pel volto,\\
+per quegli occhi serafini,
+
+e chiedeasi se possibile\\
+fosse aver a sé quel core,\\
+quasi palio inaccessibile\\
+amistà, se non amore.
+
+Al fioco lume della sera\\
+verso un più scuro castano\\
+vide la bionda criniera\\
+incupirsi piano piano;
+
+lo attraeva sempre molto,\\
+forse anzi di più ancora,\\
+eppur sfuggire al guardo colto\\
+non poté un concetto allora:
+
+di preciso il fe' notare\\
+che il belletto un dì appassito\\
+fia per tutti e dunque amare\\
+si dee chi sia in cor gradito;
+
+talor gli uomini una ruga\\
+che lor spunti sul visetto\\
+piangon mesti, o tartaruga\\
+che languisca sotto al petto,
+
+ma ben altro è Quel che ai cori\\
+dei gentil s'apprende invitto,\\
+con novo stil, dei trovatori,\\
+e che viltade ha in gran dispitto!
+
+Quando furon del palagio\\
+giunti ad un vicino punto\\
+ambo scesero e a disagio\\
+era il cavalier compunto:
+
+ancor stettero a parlare,\\
+ma sorgea l'argentea luna,\\
+sì che il prence infine andare\\
+debbe per mala fortuna.
+
+Come in storie ove galanti\\
+dell'intero firmamento\\
+il revolversi gli amanti\\
+immoto fan col sentimento,
+
+così al principesco fiore\\
+avria la man con garbo preso,\\
+sul cor posta con candore\\
+e dell'alma il tron conteso.
+
+Forse un sogno, una chimera\\
+era il suo principe caro,\\
+o diverrà una storia vera\\
+in tempi ove Amore è raro?
