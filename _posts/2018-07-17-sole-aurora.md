@@ -89,7 +89,7 @@ con candor un piacere, sì che qui dico,\\
 che non voglio usurpar del tuo core il bel seggio;
 
 altro cantar saria proprio vano,\\
-ma a svelar che m'affascini il poetar mio non finse.»\\
+ma in svelar che m'affascini il poetar mio non finse.»\\
 Tal rime proferte, gli porse la mano,\\
 che il prence, commosso, con entrambe ancor strinse.
 
