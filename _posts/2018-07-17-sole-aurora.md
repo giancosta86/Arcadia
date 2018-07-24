@@ -11,21 +11,21 @@ calor più e più torrido per boschi e per vie.
 Il Cavalier dell'Aurora in istrada\\
 stava solingo sul destriero virtuoso,\\
 quand'ebbe visione che fresca rugiada\\
-eguagliare non puote in mattino un po' uggioso:
+eguagliare non puote in mattino un po' uggioso;
 
 tra il biondo e il castano vide e distinse\\
 lo splendido ciuffo, qual zefiro aurato,\\
 che al guardo primiero il disio gli riattinse\\
-d'essere, amando, soavemente riamato.
+d'essere, amando, soavemente riamato:
 
-Quale è colui che su biga alata\\
+quale è colui che su biga alata\\
 volve il sovrano pel cielo lucente\\
 tal era, radioso, d'un'aura incantata,\\
-il Prence del Giglio, di beltà trascendente:
+il Prence del Giglio, di beltà trascendente!
 
-lo vide e sentiasi nel cor timidezza\\
+Lo vide e sentiasi nel cor timidezza\\
 che presto in ilare sorriso cangiossi,\\
-tant'era empatico e di fin gentilezza\\
+tanto era empatico e di fin gentilezza\\
 il principe buono, dai bei crini mossi.
 
 Parlarono ancora di mille argomenti,\\
@@ -70,7 +70,7 @@ che divo poeta abbia colà trascurata
  
 la tua bella persona, il tuo amabile riso\\
 la tua compassione per l'altro dolente,\\
-sì che la grazia del ciel per tuo viso\\
+tal che la grazia del ciel per tuo viso\\
 parsi irradiare qual bal'mo leniente!
 
 A guisa del Giacomo che inclito piace\\
@@ -91,9 +91,9 @@ che non voglio usurpar del tuo core il bel seggio;
 altro cantar saria proprio vano,\\
 ma in svelar che m'affascini il poetar mio non finse.»\\
 Tal rime proferte, gli porse la mano,\\
-che il prence, commosso, con entrambe ancor strinse.
+che il prence, commosso, con entrambe ancor strinse:
 
-Fu allor che l'azzurro d'arancio raggiato\\
+fu allor che l'azzurro d'arancio raggiato\\
 trovossi a ospitare i color dell'aurora,\\
 che pareva abbracciare il sole, omaggiato\\
 qual prence, d'affetto che non trovasi ognora.
