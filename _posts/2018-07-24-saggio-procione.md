@@ -15,7 +15,7 @@ buffo e simpatico, un procione paffuto:
 
 davvero stupito fu nel vederlo\\
 da un rigoglioso cespuglio sortito,\\
-sì che volle nutrirlo qual merlo,\\
+tanto che volle nutrirlo qual merlo,\\
 ma non con grano - con panino farcito!
 
 Ingordo e vorace gustò lo spuntino,\\
@@ -43,7 +43,7 @@ per lui provi e gran contento\\
 sparge all'alma, con candore,\\
 la sua vista al tuo rossore.
 
-Ben di certo un buon amico\\
+Quanto meno un buon amico\\
 lui ti vede in tanto intrico,\\
 ed apprezza il gran rispetto\\
 che dimostri al suo cospetto;
