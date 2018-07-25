@@ -59,8 +59,8 @@ con velocità costante,\\
 come un domino elegante,
 
 sì che d'uno alla costanza\\
-vibra l'altro in risonanza,\\
-e richiede assai pazienza,\\
+splende l'altro in risonanza,\\
+ma richiede assai pazienza,\\
 oltre a mutua conoscenza.
 
 Gli son note le tue gesta,\\
