@@ -51,7 +51,7 @@ che dimostri al suo cospetto;
 passionale e pur sereno\\
 con lui diventi in un baleno,\\
 ma conviene ponderare\\
-che ben più di questo è amare:
+che ancor più di questo è amare:
 
 è una reazione che, a catena,\\
 verso l'altro ciascun mena,\\
