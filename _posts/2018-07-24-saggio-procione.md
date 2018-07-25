@@ -20,7 +20,7 @@ ma non con grano - con panino farcito!
 
 Ingordo e vorace gustò lo spuntino,\\
 con la passion che i procioni al mangiare\\
-serbano ognora, con adamantino\\
+serbano ognora, con birbantino\\
 intento di scoprir le delizie più rare.
 
 Nettossi il musetto da umano e non fiere,\\
