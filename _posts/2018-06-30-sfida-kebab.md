@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "La sfida del kebab"
+sections: [filosofia, brio, rima-alternata, italiano]
 ---
 
 Un dì a un giovane messere,\\

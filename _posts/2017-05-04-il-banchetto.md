@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "Il banchetto"
+sections: [imago-gentile, brio, filosofia, rima-alternata, italiano]
 ---
 
 Al passare di genti pel mondo sospinte,\\

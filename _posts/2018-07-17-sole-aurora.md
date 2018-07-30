@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "Il sole e l'aurora"
+sections: [prence-giglio, cavalier-aurora, amore, natura, sole, rima-alternata, italiano]
 ---
 
 Fulgente e magnifico il rege splendea\\

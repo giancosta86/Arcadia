@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "La volpe argentata"
+sections: [notte, alba, filosofia, natura, rima-alternata, italiano]
 ---
 
 Su un picciol pianeta, in cosmo lontano,\\

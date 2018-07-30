@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "L'augel di cristallo"
+sections: [personaggi-gentili, amore, notte, natura, rima-baciata, italiano]
 ---
 
 A guisa di stella su muta riviera,\\

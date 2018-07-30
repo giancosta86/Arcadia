@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "Ode di primavera"
+sections: [imago-gentile, amore, odi, italiano]
 ---
 
 Un dì festoso prossimo\\

@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "Il capitano"
+sections: [personaggi-gentili, brio, sonetti, italiano]
 ---
 
 Su onde d'oceano ove leggende\\

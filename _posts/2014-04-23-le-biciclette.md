@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "Le biciclette"
+sections: [notte, filosofia, rima-baciata, italiano]
 ---
 
 Quando a ponente il sole declina\\

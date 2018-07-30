@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "L'elisir magico"
+sections: [prence-giglio, cavalier-aurora, amore, vespro, rima-alternata, italiano]
 ---
 
 Nel vespro fulgente d'un dolce vermiglio\\

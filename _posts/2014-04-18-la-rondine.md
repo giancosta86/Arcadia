@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "La rondine"
+sections: [natura, filosofia, rima-baciata, italiano]
 ---
 
 Un rondinin, di bel nero pinto,\\

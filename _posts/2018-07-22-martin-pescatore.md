@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "Il martin pescatore"
+sections: [prence-giglio, cavalier-aurora, amore, sole, brio, natura, rima-alternata, italiano]
 ---
 
 Sotto il fiero solleone\\

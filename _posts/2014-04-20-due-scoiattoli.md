@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: poem
 title:  "I due scoiattoli"
+sections: [natura, brio, rima-baciata, italiano]
 ---
 
 Vi son due scoiattoli buffi e furbetti\\
