@@ -18,11 +18,7 @@ layout: null
             | date: '%F'
             }}",
 
-        "url": "{{
-            poem.url
-            | prepend: site.baseurl
-            | prepend: site.url
-            }}"
+        "url": "{{ poem.url }}"
     }
     {% unless forloop.last %},{% endunless %}
 {% endfor %}
