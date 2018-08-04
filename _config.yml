@@ -11,7 +11,3 @@ github_username:  giancosta86
 markdown: kramdown
 
 permalink: /:title
-
-webrick:
-  headers:
-    Access-Control-Allow-Origin: '*'
