@@ -1,0 +1,25 @@
+---
+layout: null
+---
+[
+{% assign poems =
+    site.posts
+        | where_exp:
+            "post",
+            "post.layout == 'poem'"
+%}
+
+{% for poem in  poems %}
+    {
+        "title": "{{ poem.title }}",
+
+        "date": "{{
+            poem.date
+            | date: '%F'
+            }}",
+
+        "url": "{{ poem.url }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
