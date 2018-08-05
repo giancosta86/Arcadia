@@ -1,7 +1,7 @@
 ---
 layout: poem
 title:  "Mezzanotte"
-sections: [amore, filosofia, notte, rima-baciata, italiano]
+sections: [amore, filosofia, notte, rima-baciata, poesie, italiano]
 ---
 
 Posando un fosco di tenebre manto,\\

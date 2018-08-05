@@ -1,7 +1,7 @@
 ---
 layout: poem
 title:  "L'imago gentile"
-sections: [cavalier-aurora, imago-gentile, amore, notte, personaggi-gentili, rima-incrociata, italiano]
+sections: [cavalier-aurora, imago-gentile, amore, notte, personaggi-gentili, rima-incrociata, poesie, italiano]
 ---
 
 Sempre al galoppo del destriero fidato,\\

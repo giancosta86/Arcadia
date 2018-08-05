@@ -1,27 +1,23 @@
 ---
 layout: null
 ---
-{% assign poems =
-    site.posts
-    | where_exp:
-        "post",
-        "post.layout == 'poem'"
-%}
 
 {% assign sectionCodes =
     site.data.sections
     | map: 'code'
 %}
 
-{% for poem in poems %}
-    {% for poemSection in poem.sections %}
 
-        {% unless sectionCodes contains poemSection %}
+{% for post in posts %}
+    {% for postSection in post.sections %}
+
+        {% unless sectionCodes contains postSection %}
             {% include UNREGISTERED_SECTION %}
         {% endunless %}
 
     {% endfor %}
 {% endfor %}
+
 
 [
     {% for section in site.data.sections %}
@@ -29,16 +25,16 @@ layout: null
     {
         "code": "{{ section.code }}",
         "title": "{{ section.title }}",
-        "poems": [
-            {% assign sectionPoems =
-                poems
+        "posts": [
+            {% assign sectionPosts =
+                site.posts
                 | where_exp:
-                    "poem",
-                    "poem.sections contains section.code"
+                    "post",
+                    "post.sections contains section.code"
             %}
 
-            {% for sectionPoem in sectionPoems %}
-                "{{ sectionPoem.title }}"
+            {% for sectionPost in sectionPosts %}
+                "{{ sectionPost.title }}"
 
                 {% unless forloop.last %},{% endunless %}
             {% endfor %}

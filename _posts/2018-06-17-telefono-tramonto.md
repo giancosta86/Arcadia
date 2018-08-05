@@ -1,7 +1,7 @@
 ---
 layout: poem
 title:  "Un telefono al tramonto"
-sections: [prence-giglio, cavalier-aurora, amore, vespro, sonetti, italiano]
+sections: [prence-giglio, cavalier-aurora, amore, vespro, sonetti, poesie, italiano]
 ---
 
 Stava il sol stanco il ponente basciando\\

@@ -23,7 +23,7 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
 
-        <description>A new poem - "{{ post.title | xml_escape }}" - is online!</description>
+        <description>A new literary work - "{{ post.title | xml_escape }}" - is online!</description>
 
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 

@@ -1,7 +1,7 @@
 ---
 layout: poem
 title:  "L'arc-en-ciel"
-sections: [natura, filosofia, rima-baciata, francese]
+sections: [natura, filosofia, rima-baciata, poesie, francese]
 ---
 
 Dans chaque période de l'humaine vie\\

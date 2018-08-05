@@ -1,7 +1,7 @@
 ---
 layout: poem
 title:  "La carrozza fatata"
-sections: [prence-giglio, cavalier-aurora, amore, vespro, rima-alternata, italiano]
+sections: [prence-giglio, cavalier-aurora, amore, vespro, rima-alternata, poesie, italiano]
 ---
 
 Avea appena il sol passato\\
