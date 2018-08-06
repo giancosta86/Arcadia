@@ -12,6 +12,11 @@ layout: null
             }}",
 
         "url": "{{ post.url }}"
+
+        {% if post.version %}
+            ,
+        "version": {{ post.version }}
+        {% endif %}
     }
     {% unless forloop.last %},{% endunless %}
 {% endfor %}
