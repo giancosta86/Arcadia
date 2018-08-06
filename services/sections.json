@@ -34,7 +34,7 @@ layout: null
             %}
 
             {% for sectionPost in sectionPosts %}
-                "{{ sectionPost.title }}"
+                "{{ sectionPost.url }}"
 
                 {% unless forloop.last %},{% endunless %}
             {% endfor %}
