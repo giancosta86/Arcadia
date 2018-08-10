@@ -1,11 +1,12 @@
 #Site settings
 title: Arcadia
+
 email: gianluca@gianlucacosta.info
+
 description: Dreams and poetry
+
 baseurl: "/Arcadia"
 url: "http://gianlucacosta.info"
-twitter_username: giancosta86
-github_username:  giancosta86
 
 # Build settings
 markdown: kramdown

@@ -6,11 +6,11 @@ title: Info
 
 *Arcadia* is a gallery of poems composed by [me](http://gianlucacosta.info/about): it deals with love, philosophy and more - in a variety of languages, especially ancient Italian.
 
-Arcadia also features a [mobile app](https://play.google.com/store/apps/details?id=info.gianlucacosta.arcadia), to simplify and enhance poem navigation.
+Arcadia also features a [mobile web app]({{ site.data.links.app }}), to simplify and enhance poem navigation.
 
-You might want to visit the [GitHub project](https://github.com/giancosta86/Arcadia) to learn more about the technical structure of the project.
+You might want to visit the [GitHub project]({{ site.data.links.github }}) to learn more about the technical structure of the project.
 
-Finally, you are all invited to follow its [Facebook page](https://www.facebook.com/arcadiapoetry/)! ^\_\_^!
+Finally, you are all invited to follow its [Facebook page]({{ site.data.links.facebook }})! ^\_\_^!
 
 
 ## License
@@ -32,8 +32,8 @@ All the material related to Arcadia's GitHub project is licensed under a [Creati
 
 ## Further references
 
-* [Arcadia for Android](https://play.google.com/store/apps/details?id=info.gianlucacosta.arcadia)
+* [Arcadia - Mobile webapp]({{ site.data.links.app }})
 
-* [Arcadia-mobile](https://github.com/giancosta86/Arcadia-mobile) - the open source project on GitHub
+* [Arcadia-mobile]({{ site.data.links.app-github }}) - the open source project on GitHub
 
-* [Facebook page](https://www.facebook.com/arcadiapoetry/)
+* [Facebook page]({{ site.data.links.facebook }})

@@ -12,7 +12,7 @@ You are all invited to:
 
 * [Visit Arcadia](http://gianlucacosta.info/Arcadia)
 
-* Install the dedicated [Android app](https://play.google.com/store/apps/details?id=info.gianlucacosta.arcadia) or visit its [GitHub project](https://github.com/giancosta86/Arcadia-mobile)
+* Install the dedicated [Mobile webapp](/Arcadia-mobile) or visit its [GitHub project](https://github.com/giancosta86/Arcadia-mobile)
 
 * Follow its [Facebook page](https://www.facebook.com/arcadiapoetry/)! ^\_\_^
 
