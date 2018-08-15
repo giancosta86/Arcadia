@@ -4,7 +4,7 @@ title: Info
 ---
 
 
-*Arcadia* is a gallery of poems composed by [me](http://gianlucacosta.info/about): it deals with love, philosophy and more - in a variety of languages, especially ancient Italian.
+*Arcadia* is a gallery of poems composed by [me](https://gianlucacosta.info/about): it deals with love, philosophy and more - in a variety of languages, especially ancient Italian.
 
 Arcadia also features a [mobile web app]({{ site.data.links.app }}), to simplify and enhance poem navigation.
 

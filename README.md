@@ -5,12 +5,12 @@
 
 ## Introduction
 
-This is the GitHub project page for [Arcadia](http://gianlucacosta.info/Arcadia), my web project devoted to dreams, literature, poems and philosophy: here, you can browse its source files.
+This is the GitHub project page for [Arcadia](https://gianlucacosta.info/Arcadia), my web project devoted to dreams, literature, poems and philosophy: here, you can browse its source files.
 
 
 You are all invited to:
 
-* [Visit Arcadia](http://gianlucacosta.info/Arcadia)
+* [Visit Arcadia](https://gianlucacosta.info/Arcadia)
 
 * Install the dedicated [Mobile webapp](/Arcadia-mobile) or visit its [GitHub project](https://github.com/giancosta86/Arcadia-mobile)
 

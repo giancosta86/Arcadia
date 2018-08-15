@@ -6,7 +6,7 @@ email: gianluca@gianlucacosta.info
 description: Dreams and poetry
 
 baseurl: "/Arcadia"
-url: "http://gianlucacosta.info"
+url: "https://gianlucacosta.info"
 
 # Build settings
 markdown: kramdown
