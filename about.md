@@ -23,10 +23,6 @@ All the material related to Arcadia's GitHub project is licensed under a [Creati
 
 * [Jekyll](https://jekyllrb.com/) - *a simple, blog-aware, static site generator*. Definitely flexible and brilliant.
 
-* [CSSmatic](https://www.cssmatic.com/): for its outstanding tools dedicated to CSS styling
-
-* [ajaxload.info](http://www.ajaxload.info/): for the great collection of customizable loaders
-
 * [ColorZilla](http://www.colorzilla.com/gradient-editor/): for the beautiful and effective CSS gradient editor
 
 
