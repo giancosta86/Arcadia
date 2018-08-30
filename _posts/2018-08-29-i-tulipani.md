@@ -2,6 +2,7 @@
 layout: poem
 title:  "I tulipani"
 sections: [prence-giglio, cavalier-aurora, amore, filosofia, rima-dimezzata, poesie, italiano]
+version: 2
 ---
 
 Bianchi scalini\\
