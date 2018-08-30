@@ -62,9 +62,9 @@ col suo netto rigore.
 Fidanzato od amico,\\
 infin poco importava,\\
 finché tempo con lui\\
-parlando passava.
+parlando passava:
 
-Avea forse sbagliato\\
+avea forse sbagliato\\
 a dichiararsi\\
 e al suo beniamino\\
 cercar più avvicinarsi?
@@ -86,7 +86,7 @@ quale unica fiala
 
 d'elisir magico,\\
 che poemi ispirava,\\
-con la sola sua essenza\\
+con la sola sua essenza,\\
 a chi assai lo stimava.
 
 Passavan persone\\
@@ -175,7 +175,7 @@ gli avria sol perché\\
 non avea amor taciuto?
 
 Onore imponeva,\\
-onde potere parlare,\\
+dopo tanto parlare,\\
 che infin fosse l'altro\\
 il silenzio a spezzare:
 
