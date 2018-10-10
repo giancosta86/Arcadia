@@ -2,6 +2,7 @@
 layout: poem
 title:  "Il ballo del principe"
 sections: [prence-giglio, cavalier-aurora, amore, filosofia, rima-alternata, poesie, italiano]
+version: 2
 ---
 
 Un gran ballo in maschera il principe biondo\\
@@ -82,7 +83,7 @@ univano estranei che credeansi audaci:
 il cavaliere non li avea mai compresi,\\
 ché il suo buon cuore un compagno bramava,\\
 e da sempre, nel gelo, per anni e per mesi,\\
-tra pessimi uomini invano il cercava.
+in landa glaciale invano cercava.
 
 Infine giunse del ballo il gran giorno\\
 e già molte maschere folleggiavan beate;\\
@@ -167,17 +168,12 @@ mentre al gentil s'inondavan le gote;
 il cavalier saettò allor dalla sala,\\
 il vuoto sudario affranto abbracciando,\\
 e in quella violetta vide il gran gala\\
-dei simili suoi, che stavan già folleggiando:
+degli invitati, che stavan già folleggiando:
 
 vari chiamò, ma rispondeva nessuno,\\
-ché quelli pensavano solo a godere,\\
+tutti ringhiando ai cenni qual fiere,\\
 né in viso guardava l'altro ciascuno,\\
-sicché men che mai un serio messere;
-
-a diversi un buon gesto, amichevole tono\\
-rivolse, sperando suo duol consolare,\\
-ma ogn'altro soltanto a grufolar prono\\
-trovava - né sapea come a loro parlare.
+sicché men che mai un serio messere.
 
 Fu allor che la pendola emise solenne\\
 di mezzanotte il primo rintocco\\
