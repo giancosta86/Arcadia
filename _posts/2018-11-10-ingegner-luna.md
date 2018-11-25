@@ -1,7 +1,15 @@
 ---
 layout: poem
 title:  "L'ingegner della luna"
-sections: [cavalier-aurora, personaggi-gentili, poesie, rima-alternata, italiano]
+sections:
+  - cavalier-aurora
+  - personaggi-gentili
+  - notte
+  - natura
+  - filosofia
+  - rima-alternata
+  - poesie
+  - italiano
 ---
 
 Era la notte ancora calata\\

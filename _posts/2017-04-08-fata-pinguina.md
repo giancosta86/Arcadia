@@ -1,7 +1,14 @@
 ---
 layout: poem
 title:  "Fata Pinguina"
-sections: [personaggi-gentili, vespro, brio, natura, rima-alternata, poesie, italiano]
+sections:
+  - personaggi-gentili
+  - vespro
+  - brio
+  - natura
+  - rima-alternata
+  - poesie
+  - italiano
 ---
 
 Saltellan pei boschi scoiattoli buffi\\

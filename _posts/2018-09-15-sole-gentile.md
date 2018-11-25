@@ -1,7 +1,15 @@
 ---
 layout: poem
 title:  "Il sole gentile"
-sections: [prence-giglio, cavalier-aurora, amore, filosofia, versi-liberi, poesie, italiano]
+sections:
+  - prence-giglio
+  - cavalier-aurora
+  - amore
+  - filosofia
+  - sole
+  - versi-liberi
+  - poesie
+  - italiano
 ---
 
 Un dì, infin, lo rivide.\\

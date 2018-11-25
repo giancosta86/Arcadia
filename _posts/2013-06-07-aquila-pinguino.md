@@ -1,7 +1,12 @@
 ---
 layout: poem
 title:  "L'aquila che amò un pinguino"
-sections: [amore, natura, rima-baciata, poesie, italiano]
+sections:
+  - amore
+  - natura
+  - rima-baciata
+  - poesie
+  - italiano
 ---
 
 Nell'aere sereno del mattino primiero\\

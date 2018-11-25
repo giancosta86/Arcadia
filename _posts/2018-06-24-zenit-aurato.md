@@ -1,7 +1,15 @@
 ---
 layout: poem
 title:  "Zenit aurato"
-sections: [prence-giglio, cavalier-aurora, amore, sole, brio, rima-alternata, poesie, italiano]
+sections:
+  - cavalier-aurora
+  - prence-giglio
+  - amore
+  - sole
+  - brio
+  - rima-alternata
+  - poesie
+  - italiano
 ---
 
 Del meriggio al vivo ardore\\

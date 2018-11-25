@@ -1,7 +1,16 @@
 ---
 layout: poem
 title:  "Dipinto principesco"
-sections: [prence-giglio, cavalier-aurora, amore, sole, brio, natura, rima-incrociata, poesie, italiano]
+sections:
+  - cavalier-aurora
+  - prence-giglio
+  - amore
+  - sole
+  - brio
+  - natura
+  - rima-incrociata
+  - poesie
+  - italiano
 ---
 
 Là ove ogni guardo curioso si perde,\\

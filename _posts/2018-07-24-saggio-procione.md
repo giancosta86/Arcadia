@@ -1,7 +1,19 @@
 ---
 layout: poem
 title:  "Il saggio procione"
-sections: [prence-giglio, cavalier-aurora, amore, notte, filosofia, personaggi-gentili, rima-alternata, rima-baciata, poesie, italiano]
+sections:
+  - cavalier-aurora
+  - prence-giglio
+  - amore
+  - notte
+  - natura
+  - filosofia
+  - personaggi-gentili
+  - rima-alternata
+  - rima-baciata
+  - rime-miste
+  - poesie
+  - italiano
 ---
 
 Nell'aere serale, al vento pungente,\\

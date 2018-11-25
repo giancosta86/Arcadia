@@ -1,7 +1,12 @@
 ---
 layout: poem
 title:  "La sfida del kebab"
-sections: [filosofia, brio, rima-alternata, poesie, italiano]
+sections:
+  - filosofia
+  - brio
+  - rima-alternata
+  - poesie
+  - italiano
 ---
 
 Un dì a un giovane messere,\\

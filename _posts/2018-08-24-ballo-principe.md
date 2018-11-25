@@ -1,7 +1,16 @@
 ---
 layout: poem
 title:  "Il ballo del principe"
-sections: [prence-giglio, cavalier-aurora, amore, filosofia, rima-alternata, poesie, italiano]
+sections:
+  - cavalier-aurora
+  - prence-giglio
+  - amore
+  - filosofia
+  - vespro
+  - notte
+  - rima-alternata
+  - poesie
+  - italiano
 version: 2
 ---
 

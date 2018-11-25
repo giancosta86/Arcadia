@@ -1,7 +1,13 @@
 ---
 layout: poem
 title:  "Nel vespro"
-sections: [cavalier-aurora, vespro, filosofia, rima-baciata, poesie, italiano]
+sections:
+  - cavalier-aurora
+  - vespro
+  - filosofia
+  - rima-baciata
+  - poesie
+  - italiano
 ---
 
 Sul suo destrier, d'ideali cromato,\\

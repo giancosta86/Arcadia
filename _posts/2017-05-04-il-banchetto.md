@@ -1,7 +1,13 @@
 ---
 layout: poem
 title:  "Il banchetto"
-sections: [imago-gentile, brio, filosofia, rima-alternata, poesie, italiano]
+sections:
+  - imago-gentile
+  - brio
+  - filosofia
+  - rima-alternata
+  - poesie
+  - italiano
 ---
 
 Al passare di genti pel mondo sospinte,\\

@@ -1,7 +1,14 @@
 ---
 layout: poem
 title:  "Il cavalier dell'aurora"
-sections: [cavalier-aurora, amore, notte, filosofia, rima-alternata, poesie, italiano]
+sections:
+  - cavalier-aurora
+  - amore
+  - notte
+  - filosofia
+  - rima-alternata
+  - poesie
+  - italiano
 ---
 
 Nell'ombra che il vuoto più oscuro lambisce,\\

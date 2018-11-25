@@ -1,7 +1,12 @@
 ---
 layout: poem
 title:  "Le biciclette"
-sections: [notte, filosofia, rima-baciata, poesie, italiano]
+sections:
+  - notte
+  - filosofia
+  - rima-baciata
+  - poesie
+  - italiano
 ---
 
 Quando a ponente il sole declina\\

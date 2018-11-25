@@ -1,7 +1,13 @@
 ---
 layout: poem
 title:  "Les fleurs"
-sections: [natura, filosofia, brio, rima-baciata, poesie, francese]
+sections:
+  - natura
+  - filosofia
+  - brio
+  - rima-baciata
+  - poesie
+  - francese
 ---
 
 Un doux jour d'été, dans l'après-midi,\\

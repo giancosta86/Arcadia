@@ -1,7 +1,14 @@
 ---
 layout: poem
 title:  "Il lai del passero"
-sections: [cavalier-aurora, amore, notte, natura, rima-alternata, poesie, italiano]
+sections:
+  - cavalier-aurora
+  - amore
+  - notte
+  - natura
+  - rima-alternata
+  - poesie
+  - italiano
 ---
 
 In oscura notte, in foresta stregata\\

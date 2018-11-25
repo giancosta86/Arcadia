@@ -1,7 +1,15 @@
 ---
 layout: poem
 title:  "Il sommelier del meriggio"
-sections: [cavalier-aurora, personaggi-gentili, poesie, rima-baciata, italiano]
+sections:
+  - cavalier-aurora
+  - personaggi-gentili
+  - sole
+  - vespro
+  - notte
+  - rima-baciata
+  - poesie
+  - italiano
 ---
 
 Era il bel sole ridente in ciel sorto\\

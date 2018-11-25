@@ -1,7 +1,13 @@
 ---
 layout: poem
 title:  "Il prence del giglio"
-sections: [prence-giglio, amore, personaggi-gentili, sonetti, poesie, italiano]
+sections:
+  - prence-giglio
+  - amore
+  - personaggi-gentili
+  - sonetti
+  - poesie
+  - italiano
 ---
 
 Sotto armatura di bianco qual giglio,\\

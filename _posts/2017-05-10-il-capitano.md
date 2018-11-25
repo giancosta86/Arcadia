@@ -1,7 +1,13 @@
 ---
 layout: poem
 title:  "Il capitano"
-sections: [personaggi-gentili, brio, sonetti, poesie, italiano]
+sections:
+  - personaggi-gentili
+  - brio
+  - notte
+  - sonetti
+  - poesie
+  - italiano
 ---
 
 Su onde d'oceano ove leggende\\
