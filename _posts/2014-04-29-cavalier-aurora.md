@@ -5,6 +5,7 @@ sections:
   - cavalier-aurora
   - amore
   - notte
+  - luna
   - filosofia
   - rima-alternata
   - poesie

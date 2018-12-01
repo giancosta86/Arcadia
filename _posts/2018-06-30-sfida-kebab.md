@@ -3,6 +3,7 @@ layout: poem
 title:  "La sfida del kebab"
 sections:
   - filosofia
+  - poeta
   - brio
   - rima-alternata
   - poesie

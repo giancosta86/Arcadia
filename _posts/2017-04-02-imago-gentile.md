@@ -6,6 +6,7 @@ sections:
   - imago-gentile
   - amore
   - notte
+  - luna
   - personaggi-gentili
   - rima-incrociata
   - poesie

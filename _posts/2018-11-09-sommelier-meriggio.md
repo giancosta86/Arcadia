@@ -116,6 +116,3 @@ poi il cavaliere, ognor mascherato,\\
 uscì sulla piazza, il bel sole calato,\\
 e sul destriero, trapunto di belle\\
 idee galoppò, a rivedere le stelle.
-
-
-

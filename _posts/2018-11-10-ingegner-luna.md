@@ -5,6 +5,7 @@ sections:
   - cavalier-aurora
   - personaggi-gentili
   - notte
+  - luna
   - natura
   - filosofia
   - rima-alternata

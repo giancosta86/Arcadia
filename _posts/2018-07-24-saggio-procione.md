@@ -6,6 +6,7 @@ sections:
   - prence-giglio
   - amore
   - notte
+  - luna
   - natura
   - filosofia
   - personaggi-gentili

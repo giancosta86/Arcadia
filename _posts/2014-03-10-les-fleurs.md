@@ -4,6 +4,7 @@ title:  "Les fleurs"
 sections:
   - natura
   - filosofia
+  - poeta
   - brio
   - rima-baciata
   - poesie

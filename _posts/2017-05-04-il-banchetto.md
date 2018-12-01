@@ -5,6 +5,7 @@ sections:
   - imago-gentile
   - brio
   - filosofia
+  - poeta
   - rima-alternata
   - poesie
   - italiano

@@ -3,7 +3,7 @@ layout: poem
 title:  "I tulipani"
 sections:
   - prence-giglio
-  - cavalier-aurora
+  - poeta
   - amore
   - filosofia
   - vespro
