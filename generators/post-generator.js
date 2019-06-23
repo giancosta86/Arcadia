@@ -33,7 +33,7 @@ exports.generatePosts = (graphql, createPage) => {
 
 const resolvePostTemplate = markdownNode => {
   if (markdownNode.fileAbsolutePath.includes("/poems/")) {
-    return path.resolve("src/templates/PoemPage.js")
+    return path.resolve("src/templates/PoemPage.jsx")
   }
 
   throw new Error(
