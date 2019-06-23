@@ -1,0 +1,62 @@
+---
+title: "Mezzanotte"
+date: "2014-02-15"
+sections:
+  - amore
+  - filosofia
+  - notte
+  - luna
+  - rima-baciata
+  - poesie
+  - italiano
+---
+
+Posando un fosco di tenebre manto,\
+della luna celando l'inclito canto,\
+sì che l'eterea volta stellata\
+ai sensi ed al guardo pare involata,
+
+del pendolo dodici rintocchi glaciali\
+mentre risuonano, del Fato sull'ali,\
+la mezzanotte prorompe, un inverno\
+seco recando, qual dantesco Averno.
+
+Sogni e speranze di sempre, sviliti,\
+su un prato di fiori divelti e appassiti,\
+miseria sol recano, infranti giacendo,\
+mentre s'avanza del buio il crescendo.
+
+Apatici spettri, a migliaia, nel vento\
+vagano, vani, per l'aere ormai spento,\
+ombre sfumate che, sorde all'amore,\
+col tempo perdettero il proprio colore.
+
+Tra l'atro ululare di venti rabbiosi\
+e di belve dai tratti inumani e mostruosi,\
+sotto un cielo in tempesta che fulmina e tuona\
+pure una musica soave risuona:
+
+dell'umana empatia è la trama celeste,\
+a tutti conforto nell'ore più meste,\
+suono ineffabile di garbo ed affetto,\
+d'umana amistade che palpita in petto,
+
+faro che il buio illumina a giorno,\
+quand'anco del sole par lungi il ritorno,\
+poiché, in ogni loco, pel prossimo amore\
+sempre nobilita color di buon cuore!
+
+Qual brezza marina che arcana foschia\
+da un bosco dirada, liberando la via,\
+da lungi un bel raggio a vita richiama\
+sogni e speranze per ciò che si ama,
+
+un'aurora di vago splendore creando,\
+tenebre in luce così condensando,\
+verso un soave, lieto mattino\
+alfin disvelando, tra selve, il cammino.
+
+A passo di danza, dal loro torpore\
+l'un dopo l'altra si destan le ore,\
+e, speme recando, più non è ascosa,\
+ognor più vicina, un'alba radiosa.

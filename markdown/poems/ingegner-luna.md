@@ -1,0 +1,119 @@
+---
+title: "L'ingegner della luna"
+date: "2018-11-10"
+sections:
+  - cavalier-aurora
+  - personaggi-gentili
+  - notte
+  - luna
+  - natura
+  - filosofia
+  - rima-alternata
+  - poesie
+  - italiano
+---
+
+Era la notte ancora calata\
+ed il bel sole - mala sorte - svanito,\
+allor che soltanto un'imago sfumata\
+sol rimanea d'un amore appassito:
+
+il cavalier, pur tra varie sventure,\
+sul suo destriero, con fiero orgoglio,\
+ancor cavalcava tra cupe pianure\
+dei rovi e dei ghiacci coverte del doglio.
+
+Da lungi, nel buio, un alberino\
+scorse, qual lucciola in tenebra fonda,\
+e ad esso facendosi, guardingo, vicino,\
+s'accorse d'insolita forma gioconda;
+
+sulle radici, dal tempo provate,\
+come un folletto o un elfo silvano,\
+sedeva un omino, che forme sfumate\
+di vapore pingea con pipa che in mano
+
+teneva, allo sguardo stupito ispirando\
+d'intelletto la stima e onorevol rispetto,\
+un'aura di pace a sé intorno creando,\
+mentre diagrammi tracciava, soletto:
+
+pareva Archimede, di cui da bambini\
+con sua lampadina un dì si leggeva\
+su fogli a colori, in bei giornalini,\
+col suo zainetto, che ovunque perdeva.
+
+Il cavaliere a terra discese\
+piano, ossequioso, curioso mirando,\
+mentre quell'altro saluto gli rese,\
+da schemi distolto un ciglio aggrottando.
+
+Il cavaliere un poeta era nato,\
+all'ideale e al romantico teso,\
+ma in tecnologie ancor consolidato\
+fin da giovanissimo avea contrappeso,
+
+sicché in pochi istanti un discorso complesso,\
+tecnico assai e financo erudito,\
+con l'arcano signore, di sotto al cipresso\
+sostenere poté - e ne fu divertito:
+
+in epoca oscura, ove il potere\
+di nuovo barbarie sovente avea preso,\
+a riflessivo e pacato messere\
+favellare era un dono dal cielo reso.
+
+Si assomigliavano nell'affrontare\
+con metodo logico i problemi trovati,\
+e l'uno parlando, con savio alternare,\
+spunti forniva all'altro informati;
+
+v'erano pur differenze importanti,\
+ché l'ingegner moglie e pargoli avea,\
+mentre il cavalier per lande sprezzanti\
+un compagno grazioso trovare volea:
+
+per dirla in breve, quei due personaggi\
+in logica e tono sonavano eguali,\
+allor che i lor cori rendevano omaggi\
+a ben distinti e diversi ideali;
+
+eppure tra loro regnava il rispetto,\
+poiché assai pacifici eran davvero,\
+consolidato dal ferreo intelletto\
+col quale studiavano ogni mistero.
+
+Mentre parlavan, la falce d'argento\
+da dietro le fosche nubi risplese\
+ed al cavaliere per breve momento\
+emerse pensiero che triste lo rese:
+
+diversi e men cupi del Fato gli eventi\
+persino in tal notte sarebbero stati\
+se dell'imperio gli scettri reggenti\
+fossero saldi all'ingegner capitati?
+
+Ché onda creativa a guidare sembrava\
+tra tanti il più adatto per esperienza ed inoltre\
+l'aura di pace che, calmo, irradiava,\
+parea della notte rischiarare la coltre.
+
+O forse ben poco sarebbe cangiato\
+e il flusso causale scritto già era,\
+ché, tutto sommato, in tal caso il Fato\
+non poteasi distoglier da sua via primiera?
+
+Intanto fin tempo al filosofare\
+dedicaron, pensieri sul cosmo in totale\
+formulando pacati, ché l'indagare\
+è quanto distingue da ogni altro animale
+
+l'umana specie, tra miseria e splendore,\
+che su picciol sasso si volve nel vuoto,\
+e nel vuoto, con grazia, pur nel dolore,\
+un senso ricerca a cotal vano moto.
+
+Via via s'appressava l'ora di salutarsi\
+ed il cavalier n'ebbe un po' dispiacere,\
+ma sul suo destrier, dagli ideal crini sparsi,\
+pronto già era il futuro a vedere.

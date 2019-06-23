@@ -1,0 +1,67 @@
+---
+title: "L'elisir magico"
+date: "2018-06-23"
+sections:
+  - cavalier-aurora
+  - prence-giglio
+  - amore
+  - vespro
+  - rima-alternata
+  - poesie
+  - italiano
+---
+
+Nel vespro fulgente d'un dolce vermiglio\
+come un augurio di lieta novella,\
+fiero al galoppo correa con cipiglio\
+il cavalier, sperando in sua stella:
+
+riveder desiava il bel principe biondo\
+dalla sublime, nobil presenza\
+e dai premurosi modi, che al mondo\
+non sempre si trovan tra umana semenza.
+
+Mentre irradiava il sole un baleno\
+dal punto ove lungi tangea l'orizzonte,\
+vide il suo prence e sentì venir meno\
+quel che dei palpiti in petto è la fonte!
+
+Vicin gli si fece con timidezza\
+e l'altro, gioviale, a sé lo chiamò\
+con dolce sorriso, e pur senza brezza\
+volveasi il bel ciuffo che Amor tratteggiò.
+
+Poco meno alto era del cavaliere,\
+ma quanto a grazia inver torreggiante,\
+d'intelligente cultura e sin fiere\
+domare potea col suo viso elegante.
+
+Parlarono ancora di mille argomenti\
+ed il cavaliere sentivasi lieto\
+a lui di fronte, da bei sentimenti\
+rapito e financo incline al faceto;
+
+risero insieme d'eventi passati,\
+mentre gli istanti volavano cari,\
+quando il bel prence dai toni garbati\
+narrò con sapienza dei rimedi più vari:
+
+raccontò al cavalier di quanto comuni\
+frutti e verdure a nostra salute\
+apportin vantaggi e rendan più immuni,\
+di alcuni benefica citando virtute;
+
+il cavalier lo ascoltava inebriato,\
+quel delicato sembiante ammirando\
+e pensò che, dei tanti elisir che creato\
+aveva l'umano ingegno indagando,
+
+ben più potente, eppur naturale,\
+era quel prence di nobil persona,\
+di gentile fascino, che del cor ogni male\
+virtuoso lenisce con parola buona.
+
+Si salutaron con garbo grazioso\
+e la speranza di rivedersi\
+sì che al cavalier, con ardor talentuoso,\
+Amor già ispirava poetici versi.

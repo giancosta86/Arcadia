@@ -1,0 +1,35 @@
+---
+title: "I gemelli"
+date: "2013-09-14"
+sections:
+  - filosofia
+  - brio
+  - rima-baciata
+  - poesie
+  - italiano
+---
+
+Dello zodiaco in terza magione\
+v'è una speciale costellazione:\
+glifo celeste di quanto è duale,\
+Gemini ha nome pel mondo mortale.
+
+Da un singolo fato essa due attinge\
+e da sol una tinta un'iride pinge,\
+spettro continuo di sogni e ideali\
+che in enti gemelli si fanno reali.
+
+Al guardo assai simili, eppure distinti,\
+qual da una mano due quadri dipinti,\
+al par di violini in accordo intonati\
+da un'anima attenta son individuati.
+
+Ove che siano, non fa differenza,\
+essendo congiunta la loro esistenza:\
+astrale legame lor vite correla\
+che ad essi soltanto, fatal, si disvela.
+
+Mille al filosofo sorgon pensieri\
+di fronte a del cosmo sì lieti misteri,\
+ma sempre trascende ciascun intelletto\
+nobil cotanto, ineffabil concetto.

@@ -1,0 +1,42 @@
+---
+title: "L'augel di cristallo"
+date: "2014-04-13"
+sections:
+  - personaggi-gentili
+  - amore
+  - notte
+  - natura
+  - rima-baciata
+  - poesie
+  - italiano
+---
+
+A guisa di stella su muta riviera,\
+mentre nel cielo s'affosca la sera,\
+nell'ora in cui ogni speranza si tace\
+ma dei cori amanti mai spenta è la face,
+
+simile a un merlo, dal becco dorato\
+e il corpo in cristallo, nei sogni forgiato,\
+fiero e gentile, qual astro radioso,\
+fende la notte un augel melodioso.
+
+Tra falchi e colombe, su venti maestrali,\
+solingo dispiega, virtuoso, sue ali,\
+e in core s'accende un arcano disio\
+se l'aere risuona del suo cinguettio:
+
+quando si posa, lieti e novelli\
+sbocciano fiori sui cori più belli,\
+l'alma inebriando con tale dolcezza\
+che polve divengono affanno e tristezza.
+
+Felice fia spirto che un giorno a venire\
+riesca l'astrale cantore a ghermire...\
+ma pare davvero che in ben altro lido\
+ei voglia posare il dolce suo nido.
+
+Foss'anco regale, cimento non puote\
+vincer quant'altro destino già scuote,\
+e lungo la via, sotto la luna,\
+ciascuno ricerca la propria fortuna.
