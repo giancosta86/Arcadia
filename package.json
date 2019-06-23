@@ -10,6 +10,7 @@
     "email": "gianluca@gianlucacosta.info"
   },
   "scripts": {
+    "clean": "gatsby clean",
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write **/*.{js,jsx,scss,json}",
