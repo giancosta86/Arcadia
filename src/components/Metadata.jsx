@@ -13,7 +13,7 @@ export default props => {
 
       <title>{title}</title>
 
-      <link rel="icon" href={"arcadia.png"} />
+      <link rel="icon" href={props.logo} />
     </Helmet>
   )
 }

@@ -5,11 +5,11 @@ import links from "../data/links.json"
 import site from "../data/site.json"
 import css from "./Header.module.scss"
 
-export default () => (
+export default ({ logo }) => (
   <header className={css.siteHeader}>
     <Link className={css.titleBlock} to="/">
       <div className={css.title}>
-        <img className={css.logo} src={"arcadia.png"} alt="Logo" />
+        <img className={css.logo} src={logo} alt="Logo" />
         <span>{site.title}</span>
       </div>
 
