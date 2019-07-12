@@ -1,4 +1,4 @@
-# Arcadia
+# Arcadia [![Build Status](https://travis-ci.org/giancosta86/Arcadia.svg?branch=master)](https://travis-ci.org/giancosta86/Arcadia)
 
 *Dreams and poetry*
 
