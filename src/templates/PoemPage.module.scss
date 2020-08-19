@@ -50,3 +50,11 @@
     margin-bottom: 1em;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .poem-content {
+    p {
+      font-size: 0.9em !important;
+    }
+  }
+}
