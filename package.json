@@ -1,44 +1,26 @@
 {
   "name": "arcadia",
+  "version": "5.0.0",
   "private": true,
-  "description": "Website of dreams and poetry",
-  "version": "4.0.0",
-  "license": "CC-BY-NC-ND-3.0",
-  "author": {
-    "name": "Gianluca Costa",
-    "url": "https://gianlucacosta.info/",
-    "email": "gianluca@gianlucacosta.info"
-  },
   "scripts": {
-    "clean": "gatsby clean",
-    "build": "gatsby build --prefix-paths",
-    "develop": "gatsby develop",
-    "format": "prettier --write **/*.{js,jsx,scss,json}",
-    "start": "npm run develop",
-    "serve": "gatsby serve --prefix-paths",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "npx gh-pages -d public"
+    "clean": "npx rimraf .next out",
+    "dev": "next dev -- -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "rebuild": "npm run clean && npm run build && npm run export"
   },
   "dependencies": {
-    "gatsby": "^2.9.6",
-    "gatsby-plugin-react-helmet": "^3.1.0",
-    "gatsby-plugin-sass": "^2.0.11",
-    "gatsby-source-filesystem": "^2.0.43",
-    "gatsby-transformer-remark": "^2.4.0",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "next": "10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.18.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/giancosta86/Arcadia"
-  },
-  "bugs": {
-    "url": "https://github.com/giancosta86/Arcadia/issues"
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.55",
+    "prettier": "^2.1.2",
+    "rimraf": "^3.0.2",
+    "sass": "^1.28.0",
+    "typescript": "^4.0.5"
   }
 }

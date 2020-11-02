@@ -1,0 +1,76 @@
+.layout {
+  display: flex;
+  flex-flow: column wrap;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  header {
+    background: linear-gradient(180deg, #9fd8ef 0, #dcf1f9 65%, #fff);
+    padding-top: 0.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-bottom: 0.5em;
+
+    .logo-banner {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 0.8em;
+      margin-right: 1em;
+
+      img {
+        width: 3em;
+        margin-right: 0.2em;
+      }
+
+      .title {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 2.4em;
+        color: #1756a9;
+
+        &:hover {
+          color: #2a7ae2;
+        }
+      }
+    }
+
+    .menu {
+      display: flex;
+
+      .button {
+        padding: 0.5em;
+        border-radius: 50px;
+        background: transparent;
+        color: #1756a9;
+        border: 1px solid #465e7d;
+        font-style: italic;
+      }
+
+      .button:not(:last-child) {
+        margin-right: 0.75em;
+      }
+
+      .sections:hover {
+        background: #fcffc0;
+      }
+
+      .about:hover {
+        background: #c0ffc2;
+      }
+    }
+  }
+
+  .main {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  footer {
+    background: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 0.4em;
+  }
+}

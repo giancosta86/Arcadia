@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px) {
+  .layout {
+    header {
+      .logo-banner {
+        margin-right: 0.5em;
+      }
+      .menu {
+        .button {
+          padding-top: 0.4em;
+          padding-bottom: 0.4em;
+
+          &:hover {
+            background: transparent;
+          }
+        }
+        .button:not(:last-child) {
+          margin-right: 0.2em;
+        }
+      }
+    }
+  }
+
+  .sections-page {
+    .sections.list {
+      display: flex;
+      flex-flow: row wrap;
+
+      .section-cover {
+        width: 90%;
+        height: 3em;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .composition {
+    .title {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 0.95em;
+    }
+  }
+}
