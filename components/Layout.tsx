@@ -13,13 +13,16 @@ export default function Layout({ children, mainClass }: Props) {
   return (
     <div className="layout">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={site.getAbsolutePath("/favicon.ico")} />
 
         <meta name="author" content="Gianluca Costa" />
 
         <meta name="description" content="Dreams and Poetry" />
 
-        <link rel="manifest" href="/manifest.webmanifest"></link>
+        <link
+          rel="manifest"
+          href={site.getAbsolutePath("/manifest.webmanifest")}
+        ></link>
       </Head>
 
       <PageMetaTitle title={site.longTitle} />
@@ -27,7 +30,7 @@ export default function Layout({ children, mainClass }: Props) {
       <header>
         <Link href="/" passHref>
           <a className="logo-banner">
-            <img src="/logo.svg" />
+            <img src={site.getAbsolutePath("/logo.svg")} />
             <span className="title">Arcadia</span>
           </a>
         </Link>

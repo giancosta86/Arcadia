@@ -1,10 +1,15 @@
 import { HardwiredCompositionRepository } from "./model/compositions"
 import { HardwiredSectionRepository } from "./model/sections"
 import { TableOfContents } from "./model/tableOfContents"
+import { basePath } from "./next.config"
 
 export const site = {
   shortTitle: "Arcadia",
-  longTitle: "Arcadia - Dreams and Poetry"
+  longTitle: "Arcadia - Dreams and Poetry",
+
+  getAbsolutePath(absolutePathInContext: string): string {
+    return `${basePath}${absolutePathInContext}`
+  }
 } as const
 
 export const links = {
