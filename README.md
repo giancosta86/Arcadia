@@ -1,4 +1,4 @@
-# Arcadia [![Build Status](https://github.com/giancosta86/Arcadia/workflows/build-and-deploy/badge.svg)](https://github.com/giancosta86/Arcadia/actions)
+# Arcadia ![Build and deploy](https://github.com/giancosta86/Arcadia/workflows/Build%20and%20deploy/badge.svg)
 
 _Dreams and poetry_
 
