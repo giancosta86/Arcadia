@@ -4,20 +4,20 @@
   "description": "Website of dreams and poetry",
   "icons": [
     {
-      "src": "/logo-192.png",
+      "src": "/Arcadia/logo-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/logo-512.png",
+      "src": "/Arcadia/logo-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/Arcadia",
   "background_color": "#ffffff",
   "display": "fullscreen",
-  "scope": "/",
+  "scope": "/Arcadia",
   "theme_color": "#e5f9ff",
   "orientation": "portrait"
 }
