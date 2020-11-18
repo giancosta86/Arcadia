@@ -16,9 +16,9 @@ jobs:
         with:
           node-version: "15.0.1"
 
-      - run: npm ci
-      - run: npm run build
-      - run: npm run export
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+      - run: yarn export
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
