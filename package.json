@@ -5,10 +5,10 @@
   "scripts": {
     "clean": "npx rimraf .next out",
     "dev": "next dev -- -H 0.0.0.0",
+    "start": "yarn dev",
     "build": "next build",
-    "start": "next start",
     "export": "next export",
-    "rebuild": "npm run clean && npm run build && npm run export"
+    "rebuild": "yarn clean && yarn build && yarn export"
   },
   "dependencies": {
     "next": "10.0.0",
