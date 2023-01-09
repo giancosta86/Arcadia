@@ -3,6 +3,7 @@ import Link from "next/link";
 import { links, site } from "../globals";
 import ExternalLink from "./ExternalLink";
 import PageMetaTitle from "./PageMetaTitle";
+import packageInfo from "../package.json";
 
 interface Props {
   children: React.ReactNode;
@@ -18,6 +19,8 @@ export default function Layout({ children, mainClass }: Props) {
         <meta name="author" content="Gianluca Costa" />
 
         <meta name="description" content="Dreams and Poetry" />
+
+        <meta name="version" content={packageInfo.version} />
 
         <link
           rel="manifest"
