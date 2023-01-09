@@ -1,8 +1,8 @@
-import Link from "next/link"
-import { ViewSection } from "../viewmodel/viewSections"
+import Link from "next/link";
+import { ViewSection } from "../viewmodel/viewSections";
 
 interface Props {
-  section: ViewSection
+  section: ViewSection;
 }
 
 export default function SectionCover({ section }: Props) {
@@ -16,5 +16,5 @@ export default function SectionCover({ section }: Props) {
         {section.compositionCount} compositions
       </span>
     </div>
-  )
+  );
 }

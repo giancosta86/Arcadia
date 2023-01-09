@@ -1,5 +1,5 @@
-import Link from "next/link"
-import Layout from "../components/Layout"
+import Link from "next/link";
+import Layout from "../components/Layout";
 
 export default function Custom404() {
   return (
@@ -14,5 +14,5 @@ export default function Custom404() {
         table of contents.
       </p>
     </Layout>
-  )
+  );
 }

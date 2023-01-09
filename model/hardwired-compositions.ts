@@ -1,4 +1,4 @@
-import { Composition } from "./compositions"
+import { Composition } from "./compositions";
 
 export const hardwiredCompositions: readonly Composition[] = [
   {
@@ -157,4 +157,4 @@ export const hardwiredCompositions: readonly Composition[] = [
     title: "L'aquila che amò un pinguino",
     date: new Date("2013-06-07")
   }
-]
+];

@@ -1,7 +1,7 @@
-import CompositionList from "../components/CompositionList"
-import Layout from "../components/Layout"
-import { compositionRepository } from "../globals"
-import { toView } from "../viewmodel/viewCompositions"
+import CompositionList from "../components/CompositionList";
+import Layout from "../components/Layout";
+import { compositionRepository } from "../globals";
+import { toView } from "../viewmodel/viewCompositions";
 
 export default function Home() {
   return (
@@ -10,9 +10,9 @@ export default function Home() {
         <CompositionList
           compositions={[...compositionRepository.findAll()]
             .sort((left, right) => right.date.getTime() - left.date.getTime())
-            .map((composition) => toView(composition))}
+            .map(composition => toView(composition))}
         />
       </div>
     </Layout>
-  )
+  );
 }

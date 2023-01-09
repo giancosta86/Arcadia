@@ -1,21 +1,21 @@
-import { Composition } from "../model/compositions"
+import { Composition } from "../model/compositions";
 
 const userDateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
   month: "short",
   year: "numeric"
-})
+});
 
 export interface ViewComposition {
-  id: string
-  title: string
-  rawDate: string
-  userDate: string
-  htmlContent?: string
+  id: string;
+  title: string;
+  rawDate: string;
+  userDate: string;
+  htmlContent?: string;
 }
 
 function rawFormatDate(date: Date): string {
-  return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`
+  return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
 }
 
 export function toView(composition: Composition): ViewComposition {
@@ -24,5 +24,5 @@ export function toView(composition: Composition): ViewComposition {
     title: composition.title,
     rawDate: rawFormatDate(composition.date),
     userDate: userDateFormatter.format(composition.date)
-  }
+  };
 }

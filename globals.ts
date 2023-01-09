@@ -1,28 +1,28 @@
-import { HardwiredCompositionRepository } from "./model/compositions"
-import { HardwiredSectionRepository } from "./model/sections"
-import { TableOfContents } from "./model/tableOfContents"
-import { basePath } from "./next.config"
+import { HardwiredCompositionRepository } from "./model/compositions";
+import { HardwiredSectionRepository } from "./model/sections";
+import { TableOfContents } from "./model/tableOfContents";
+import { basePath } from "./next.config";
 
 export const site = {
   shortTitle: "Arcadia",
   longTitle: "Arcadia - Dreams and Poetry",
 
   getAbsolutePath(absolutePathInContext: string): string {
-    return `${basePath}${absolutePathInContext}`
+    return `${basePath}${absolutePathInContext}`;
   }
-} as const
+} as const;
 
 export const links = {
   license: "https://creativecommons.org/licenses/by-nc-nd/3.0/",
   gcwebsite: "https://gianlucacosta.info/",
   facebookPage: "https://www.facebook.com/arcadiapoetry/"
-} as const
+} as const;
 
-export const compositionRepository = new HardwiredCompositionRepository()
+export const compositionRepository = new HardwiredCompositionRepository();
 
-export const sectionRepository = new HardwiredSectionRepository()
+export const sectionRepository = new HardwiredSectionRepository();
 
 export const tableOfContents = new TableOfContents(
   sectionRepository,
   compositionRepository
-)
+);

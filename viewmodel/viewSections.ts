@@ -1,9 +1,9 @@
-import { Section } from "../model/sections"
+import { Section } from "../model/sections";
 
 export interface ViewSection {
-  id: string
-  name: string
-  compositionCount: number
+  id: string;
+  name: string;
+  compositionCount: number;
 }
 
 export function toView(section: Section): ViewSection {
@@ -11,5 +11,5 @@ export function toView(section: Section): ViewSection {
     id: section.id,
     name: section.name,
     compositionCount: section.compositionIds.length
-  }
+  };
 }

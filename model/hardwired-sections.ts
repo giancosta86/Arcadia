@@ -1,4 +1,4 @@
-import { Section } from "./sections"
+import { Section } from "./sections";
 
 export const hardwiredSections: readonly Section[] = [
   {
@@ -395,4 +395,4 @@ export const hardwiredSections: readonly Section[] = [
       "aquila-pinguino"
     ]
   }
-]
+];

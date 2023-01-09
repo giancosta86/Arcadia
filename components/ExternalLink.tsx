@@ -1,7 +1,7 @@
 interface Props {
-  href: string
-  className?: string
-  children: React.ReactNode
+  href: string;
+  className?: string;
+  children: React.ReactNode;
 }
 
 export default function ExternalLink(props: Props) {
@@ -9,5 +9,5 @@ export default function ExternalLink(props: Props) {
     <a href={props.href} className={props.className} target="_blank">
       {props.children}
     </a>
-  )
+  );
 }

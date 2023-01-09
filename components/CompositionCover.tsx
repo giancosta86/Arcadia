@@ -1,8 +1,8 @@
-import Link from "next/link"
-import { ViewComposition } from "../viewmodel/viewCompositions"
+import Link from "next/link";
+import { ViewComposition } from "../viewmodel/viewCompositions";
 
 interface Props {
-  composition: ViewComposition
+  composition: ViewComposition;
 }
 
 export default function CompositionCover({ composition }: Props) {
@@ -13,5 +13,5 @@ export default function CompositionCover({ composition }: Props) {
         <a className="title">{composition.title}</a>
       </Link>
     </div>
-  )
+  );
 }

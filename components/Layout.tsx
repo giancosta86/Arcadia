@@ -1,12 +1,12 @@
-import Head from "next/head"
-import Link from "next/link"
-import { links, site } from "../globals"
-import ExternalLink from "./ExternalLink"
-import PageMetaTitle from "./PageMetaTitle"
+import Head from "next/head";
+import Link from "next/link";
+import { links, site } from "../globals";
+import ExternalLink from "./ExternalLink";
+import PageMetaTitle from "./PageMetaTitle";
 
 interface Props {
-  children: React.ReactNode
-  mainClass?: string
+  children: React.ReactNode;
+  mainClass?: string;
 }
 
 export default function Layout({ children, mainClass }: Props) {
@@ -54,5 +54,5 @@ export default function Layout({ children, mainClass }: Props) {
         <ExternalLink href={links.gcwebsite}>Gianluca Costa</ExternalLink>
       </footer>
     </div>
-  )
+  );
 }

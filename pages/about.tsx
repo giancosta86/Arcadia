@@ -1,7 +1,7 @@
-import React from "react"
-import ExternalLink from "../components/ExternalLink"
-import Layout from "../components/Layout"
-import { links } from "../globals"
+import React from "react";
+import ExternalLink from "../components/ExternalLink";
+import Layout from "../components/Layout";
+import { links } from "../globals";
 
 export default function About() {
   return (
@@ -55,5 +55,5 @@ export default function About() {
         </li>
       </ul>
     </Layout>
-  )
+  );
 }

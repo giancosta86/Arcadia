@@ -1,7 +1,7 @@
-import Head from "next/head"
+import Head from "next/head";
 
 interface Props {
-  title: string
+  title: string;
 }
 
 export default function PageMetaTitle(props: Props) {
@@ -10,5 +10,5 @@ export default function PageMetaTitle(props: Props) {
       <meta name="og:title" content={props.title} />
       <title>{props.title}</title>
     </Head>
-  )
+  );
 }
