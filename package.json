@@ -3,24 +3,32 @@
   "version": "5.0.1",
   "private": true,
   "scripts": {
-    "clean": "npx rimraf .next out",
-    "dev": "next dev -- -H 0.0.0.0",
+    "clean": "rimraf .next out",
+    "clean:all": "yarn clean && rimraf node_modules",
+    "format": "prettier --write .",
+    "check-all": "yarn check-format && yarn lint",
+    "check-format": "prettier --check .",
+    "lint": "next lint",
+    "build": "yarn check-all && next build",
     "start": "yarn dev",
-    "build": "next build",
+    "dev": "next dev -- -H 0.0.0.0",
+    "prod": "next start",
     "export": "next export",
     "rebuild": "yarn clean && yarn build && yarn export"
   },
   "dependencies": {
-    "next": "10.0.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "next": "^12",
+    "react": "^17",
+    "react-dom": "^17"
   },
   "devDependencies": {
-    "@types/node": "^14.14.6",
-    "@types/react": "^16.9.55",
+    "@types/node": "^14",
+    "@types/react": "^17",
+    "eslint": "^8.31.0",
+    "eslint-config-next": "^13.1.1",
     "prettier": "^2.8.2",
     "rimraf": "^3.0.2",
-    "sass": "^1.28.0",
-    "typescript": "^4.0.5"
+    "sass": "^1.57.1",
+    "typescript": "^4.9.4"
   }
 }

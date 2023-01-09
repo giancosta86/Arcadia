@@ -8,7 +8,7 @@ export default function About() {
     <Layout mainClass="about-page">
       <p>
         In the very end, what is one of the core aspects of human life, if not
-        sharing one's feelings and ideas?
+        sharing one&apos;s feelings and ideas?
       </p>
       <p>
         <strong>Arcadia</strong> is <em>my personal literary gallery</em>, where
@@ -32,7 +32,8 @@ export default function About() {
       <h2>License</h2>
 
       <p>
-        All the material related to Arcadia's GitHub project is licensed under a{" "}
+        All the material related to Arcadia&apos;s GitHub project is licensed
+        under a{" "}
         <ExternalLink href={links.license}>
           Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
           License

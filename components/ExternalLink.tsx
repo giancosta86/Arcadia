@@ -6,7 +6,12 @@ interface Props {
 
 export default function ExternalLink(props: Props) {
   return (
-    <a href={props.href} className={props.className} target="_blank">
+    <a
+      href={props.href}
+      className={props.className}
+      target="_blank"
+      rel="noreferrer"
+    >
       {props.children}
     </a>
   );

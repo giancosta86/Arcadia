@@ -30,7 +30,7 @@ export default function Layout({ children, mainClass }: Props) {
       <header>
         <Link href="/" passHref>
           <a className="logo-banner">
-            <img src={site.getAbsolutePath("/logo.svg")} />
+            <img src={site.getAbsolutePath("/logo.svg")} alt="Logo" />
             <span className="title">Arcadia</span>
           </a>
         </Link>
