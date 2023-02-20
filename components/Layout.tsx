@@ -15,7 +15,7 @@ export default function Layout({ children, mainClass, title }: Props) {
     <div className="layout">
       <Head>
         <title>{title ?? site.longTitle}</title>
-        <meta name="og:title" content={title} />
+        <meta name="og:title" content={title ?? site.longTitle} />
 
         <link rel="icon" href={site.getAbsolutePath("/favicon.ico")} />
         <meta name="author" content="Gianluca Costa" />
