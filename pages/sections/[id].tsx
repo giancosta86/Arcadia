@@ -1,7 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import CompositionList from "../../components/CompositionList";
 import Layout from "../../components/Layout";
-import PageMetaTitle from "../../components/PageMetaTitle";
 import { sectionRepository, site, tableOfContents } from "../../globals";
 import { toView, ViewComposition } from "../../viewmodel/viewCompositions";
 import { ViewSection } from "../../viewmodel/viewSections";
@@ -39,9 +38,7 @@ interface Props {
 
 export default function SectionPage(props: Props) {
   return (
-    <Layout>
-      <PageMetaTitle title={`${site.shortTitle} - ${props.section.name}`} />
-
+    <Layout title={`${site.shortTitle} - ${props.section.name}`}>
       <span className="page-title">{props.section.name}</span>
 
       <CompositionList compositions={props.compositions} />

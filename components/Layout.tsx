@@ -2,18 +2,21 @@ import Head from "next/head";
 import Link from "next/link";
 import { links, site } from "../globals";
 import ExternalLink from "./ExternalLink";
-import PageMetaTitle from "./PageMetaTitle";
 import packageInfo from "../package.json";
 
 interface Props {
   children: React.ReactNode;
+  title?: string;
   mainClass?: string;
 }
 
-export default function Layout({ children, mainClass }: Props) {
+export default function Layout({ children, mainClass, title }: Props) {
   return (
     <div className="layout">
       <Head>
+        <title>{title ?? site.longTitle}</title>
+        <meta name="og:title" content={title} />
+
         <link rel="icon" href={site.getAbsolutePath("/favicon.ico")} />
         <meta name="author" content="Gianluca Costa" />
         <meta name="description" content="Dreams and Poetry" />
@@ -29,8 +32,6 @@ export default function Layout({ children, mainClass }: Props) {
           href={site.getAbsolutePath("/manifest.webmanifest")}
         ></link>
       </Head>
-
-      <PageMetaTitle title={site.longTitle} />
 
       <header>
         <Link href="/" passHref>

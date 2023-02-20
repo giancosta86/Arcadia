@@ -4,7 +4,6 @@ import { promises as fs } from "fs";
 import { compositionRepository, site } from "../globals";
 import { toView, ViewComposition } from "../viewmodel/viewCompositions";
 import Layout from "../components/Layout";
-import PageMetaTitle from "../components/PageMetaTitle";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = compositionRepository.findAll().map(composition => ({
@@ -39,10 +38,7 @@ interface Props {
 
 export default function CompositionPage(props: Props) {
   return (
-    <Layout>
-      <PageMetaTitle
-        title={`${site.shortTitle} - ${props.composition.title}`}
-      />
+    <Layout title={`${site.shortTitle} - ${props.composition.title}`}>
       <div className="composition">
         <span className="title">{props.composition.title}</span>
 
