@@ -15,17 +15,19 @@ export default function Layout({ children, mainClass, title }: Props) {
     <div className="layout">
       <Head>
         <title>{title ?? site.longTitle}</title>
-        <meta name="og:title" content={title ?? site.longTitle} />
 
         <link rel="icon" href={site.getAbsolutePath("/favicon.ico")} />
         <meta name="author" content="Gianluca Costa" />
         <meta name="description" content="Dreams and Poetry" />
         <meta name="version" content={packageInfo.version} />
 
+        <meta property="og:title" content={title ?? site.longTitle} />
+        <meta property="og:description" content="Dreams and Poetry" />
         <meta
           property="og:image"
           content="https://gianlucacosta.info/Arcadia/preview.png"
         />
+        <meta property="og:url" content="https://gianlucacosta.info/Arcadia/" />
 
         <link
           rel="manifest"
