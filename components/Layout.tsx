@@ -15,12 +15,14 @@ export default function Layout({ children, mainClass }: Props) {
     <div className="layout">
       <Head>
         <link rel="icon" href={site.getAbsolutePath("/favicon.ico")} />
-
         <meta name="author" content="Gianluca Costa" />
-
         <meta name="description" content="Dreams and Poetry" />
-
         <meta name="version" content={packageInfo.version} />
+
+        <meta
+          property="og:image"
+          content="https://gianlucacosta.info/Arcadia/preview.png"
+        />
 
         <link
           rel="manifest"
