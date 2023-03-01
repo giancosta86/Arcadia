@@ -38,7 +38,7 @@ interface Props {
 
 export default function CompositionPage(props: Props) {
   return (
-    <Layout title={`${site.shortTitle} - ${props.composition.title}`}>
+    <Layout title={`${props.composition.title} - ${site.shortTitle}`}>
       <div className="composition">
         <span className="title">{props.composition.title}</span>
 
