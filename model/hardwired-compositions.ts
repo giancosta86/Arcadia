@@ -2,6 +2,11 @@ import { Composition } from "./compositions";
 
 export const hardwiredCompositions: readonly Composition[] = [
   {
+    id: "drago-farfalla",
+    title: "Il drago e la farfalla",
+    date: new Date("2023-03-01")
+  },
+  {
     id: "ingegner-luna",
     title: "L'ingegner della luna",
     date: new Date("2018-11-10")

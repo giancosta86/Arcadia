@@ -28,6 +28,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "luna",
     name: "La luna",
     compositionIds: [
+      "drago-farfalla",
       "la-lune",
       "cavalier-aurora",
       "le-biciclette",
@@ -83,6 +84,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "natura",
     name: "Quadri nella natura",
     compositionIds: [
+      "drago-farfalla",
       "due-scoiattoli",
       "la-rondine",
       "il-mare",
@@ -117,6 +119,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "personaggi-gentili",
     name: "Personaggi gentili",
     compositionIds: [
+      "drago-farfalla",
       "ingegner-luna",
       "sommelier-meriggio",
       "la-gilda",
@@ -156,6 +159,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "filosofia",
     name: "Filosofia",
     compositionIds: [
+      "drago-farfalla",
       "il-mare",
       "le-nuvole",
       "le-biciclette",
@@ -173,6 +177,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "vespro",
     name: "Pensieri nel vespro",
     compositionIds: [
+      "drago-farfalla",
       "carrozza-fatata",
       "elisir-magico",
       "nel-vespro",
@@ -189,6 +194,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "notte",
     name: "Quadri notturni",
     compositionIds: [
+      "drago-farfalla",
       "le-biciclette",
       "la-lune",
       "mezzanotte",
@@ -278,7 +284,7 @@ export const hardwiredSections: readonly Section[] = [
   {
     id: "rima-incrociata",
     name: "Rima incrociata",
-    compositionIds: ["dipinto-principesco", "imago-gentile"]
+    compositionIds: ["drago-farfalla", "dipinto-principesco", "imago-gentile"]
   },
   {
     id: "rima-dimezzata",
@@ -305,6 +311,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: [
+      "drago-farfalla",
       "ingegner-luna",
       "sommelier-meriggio",
       "la-gilda",
@@ -350,9 +357,15 @@ export const hardwiredSections: readonly Section[] = [
     compositionIds: ["mann-mond"]
   },
   {
+    id: "pinyin",
+    name: "Pīnyīn",
+    compositionIds: ["drago-farfalla"]
+  },
+  {
     id: "poesie",
     name: "Poesie",
     compositionIds: [
+      "drago-farfalla",
       "ingegner-luna",
       "sommelier-meriggio",
       "la-gilda",
