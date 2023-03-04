@@ -36,15 +36,15 @@ interface Props {
   composition: ViewComposition;
 }
 
-export default function CompositionPage(props: Props) {
+export default function CompositionPage({ composition }: Props) {
   return (
-    <Layout title={`${props.composition.title} - ${site.shortTitle}`}>
+    <Layout title={`${composition.title} - ${site.shortTitle}`}>
       <div className="composition">
-        <span className="title">{props.composition.title}</span>
+        <span className="title">{composition.title}</span>
 
         <div
           dangerouslySetInnerHTML={{
-            __html: props.composition.htmlContent ?? ""
+            __html: composition.htmlContent ?? ""
           }}
         />
       </div>

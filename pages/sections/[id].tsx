@@ -36,12 +36,12 @@ interface Props {
   compositions: readonly ViewComposition[];
 }
 
-export default function SectionPage(props: Props) {
+export default function SectionPage({ section, compositions }: Props) {
   return (
-    <Layout title={`${site.shortTitle} - ${props.section.name}`}>
-      <span className="page-title">{props.section.name}</span>
+    <Layout title={`${site.shortTitle} - ${section.name}`}>
+      <span className="page-title">{section.name}</span>
 
-      <CompositionList compositions={props.compositions} />
+      <CompositionList compositions={compositions} />
     </Layout>
   );
 }
