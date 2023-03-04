@@ -39,7 +39,9 @@ export default function Layout({ children, mainClass, title }: Props) {
 
         <link
           rel="canonical"
-          href={site.getAbsolutePath(absolutePathInContext)}
+          href={`https://gianlucacosta.info${site.getAbsolutePath(
+            absolutePathInContext
+          )}`}
         />
       </Head>
 
