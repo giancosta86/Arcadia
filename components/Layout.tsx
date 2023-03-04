@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import Head from "next/head";
 import Link from "next/link";
 import { links, site } from "../globals";
@@ -11,6 +12,8 @@ interface Props {
 }
 
 export default function Layout({ children, mainClass, title }: Props) {
+  const { asPath: absolutePathInContext } = useRouter();
+
   return (
     <div className="layout">
       <Head>
@@ -33,6 +36,11 @@ export default function Layout({ children, mainClass, title }: Props) {
           rel="manifest"
           href={site.getAbsolutePath("/manifest.webmanifest")}
         ></link>
+
+        <link
+          rel="canonical"
+          href={site.getAbsolutePath(absolutePathInContext)}
+        />
       </Head>
 
       <header>
