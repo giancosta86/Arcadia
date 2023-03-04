@@ -7,6 +7,12 @@ export const site = {
   shortTitle: "Arcadia",
   longTitle: "Arcadia - Dreams and Poetry",
 
+  getUrl(absolutePathInContext: string): string {
+    return `https://gianlucacosta.info${this.getAbsolutePath(
+      absolutePathInContext
+    )}`;
+  },
+
   getAbsolutePath(absolutePathInContext: string): string {
     return `${basePath}${absolutePathInContext}`;
   }

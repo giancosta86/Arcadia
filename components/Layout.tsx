@@ -26,23 +26,15 @@ export default function Layout({ children, mainClass, title }: Props) {
 
         <meta property="og:title" content={title ?? site.longTitle} />
         <meta property="og:description" content="Dreams and Poetry" />
-        <meta
-          property="og:image"
-          content="https://gianlucacosta.info/Arcadia/preview.png"
-        />
-        <meta property="og:url" content="https://gianlucacosta.info/Arcadia/" />
+        <meta property="og:image" content={site.getUrl("/preview.png")} />
+        <meta property="og:url" content={site.getUrl(absolutePathInContext)} />
 
         <link
           rel="manifest"
           href={site.getAbsolutePath("/manifest.webmanifest")}
         ></link>
 
-        <link
-          rel="canonical"
-          href={`https://gianlucacosta.info${site.getAbsolutePath(
-            absolutePathInContext
-          )}`}
-        />
+        <link rel="canonical" href={site.getUrl(absolutePathInContext)} />
       </Head>
 
       <header>
