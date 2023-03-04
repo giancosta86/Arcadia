@@ -24,9 +24,7 @@ export default function About() {
         its current version is based on{" "}
         <ExternalLink href="https://nextjs.org/">Next.js</ExternalLink> and is
         now <em>a mobile-first website</em>, to make its oeuvres more and more
-        accessible; furthermore you are all invited to also follow its related{" "}
-        <ExternalLink href={links.facebookPage}>Facebook page</ExternalLink>!
-        ^__^!
+        accessible! ^__^!
       </p>
 
       <h2>License</h2>

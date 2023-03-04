@@ -14,10 +14,8 @@ export const site = {
 
 export const links = {
   license: "https://creativecommons.org/licenses/by-nc-nd/3.0/",
-  gcwebsite: "https://gianlucacosta.info/",
-  facebookPage: "https://www.facebook.com/arcadiapoetry/"
+  gcwebsite: "https://gianlucacosta.info/"
 } as const;
-
 export const compositionRepository = new HardwiredCompositionRepository();
 
 export const sectionRepository = new HardwiredSectionRepository();

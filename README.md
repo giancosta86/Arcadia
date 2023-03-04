@@ -6,11 +6,7 @@ _Dreams and poetry_
 
 This is the GitHub project page for [Arcadia](https://gianlucacosta.info/Arcadia), my website devoted to dreams, literature and philosophy: here, you can browse its source files.
 
-You are all invited to:
-
-- [Visit Arcadia](https://gianlucacosta.info/Arcadia)
-
-- Follow its [Facebook page](https://www.facebook.com/arcadiapoetry/)! ^\_\_^
+Most important, you are all invited to [visit Arcadia](https://gianlucacosta.info/Arcadia)!
 
 ## License
 
