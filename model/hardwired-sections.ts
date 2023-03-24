@@ -45,6 +45,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "poeta",
     name: "Il poeta",
     compositionIds: [
+      "gnomo-furetto",
       "le-nuvole",
       "sfida-kebab",
       "la-gilda",
@@ -84,6 +85,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "natura",
     name: "Quadri nella natura",
     compositionIds: [
+      "gnomo-furetto",
       "drago-farfalla",
       "due-scoiattoli",
       "la-rondine",
@@ -217,6 +219,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "sole",
     name: "Quadri solari",
     compositionIds: [
+      "gnomo-furetto",
       "zenit-aurato",
       "sole-aurora",
       "martin-pescatore",
@@ -284,7 +287,12 @@ export const hardwiredSections: readonly Section[] = [
   {
     id: "rima-incrociata",
     name: "Rima incrociata",
-    compositionIds: ["drago-farfalla", "dipinto-principesco", "imago-gentile"]
+    compositionIds: [
+      "gnomo-furetto",
+      "drago-farfalla",
+      "dipinto-principesco",
+      "imago-gentile"
+    ]
   },
   {
     id: "rima-dimezzata",
@@ -365,6 +373,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "poesie",
     name: "Poesie",
     compositionIds: [
+      "gnomo-furetto",
       "drago-farfalla",
       "ingegner-luna",
       "sommelier-meriggio",
