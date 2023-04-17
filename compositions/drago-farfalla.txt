@@ -139,8 +139,8 @@ che raggio d'argento rifletteva dorato,
 pace irradiando e dispensando fortuna:
 
 un drago d'Oriente, che il verso dantesco
-sol descriver potrebbe, assiso lì stava
-e con seràfica grazia le stelle ammirava,
+sol descriver potrebbe, assiso lì stava...
+con seràfica grazia le stelle ammirava,
 da tazza adornata sorseggiando tè fresco.
 
 Oh, ciel! Prese timido a tentennare
@@ -158,12 +158,12 @@ che illusiòn crea ma il vero disvela,
 al pari d'artista pingendo su tela
 ciò che uman sensi non sanno spiegare.
 
-«Nǐ hǎo, wǒ de xiǎopéngyǒu! Nǐ hǎo ma?»,
+<span class="logogram">«我<sup>Wǒ</sup>的<sup>de</sup>小<sup>xiǎo</sup>小<sup>xiǎo</sup>朋<sup>péng</sup>友<sup>you</sup>，您<sup>nín</sup>好<sup>hǎo</sup>吗<sup>ma</sup>?»</span>,
 accòlselo il drago con soave eleganza,
 senza da forza sua trarre arroganza,
 anzi con voce che tesseva amistà;
 
-«Nǐ lái hè yībēi chá bā!» - amabile,
+<span class="logogram">«请<sup>Qǐng</sup>您<sup>nín</sup>来<sup>lái</sup>喝<sup>hē</sup>杯<sup>bēi</sup>茶<sup>chá</sup>!»</span> - amabile,
 porse una tazza di buon tè pregiato
 e tosto all'idioma in cui l'altro era nato
 passò, conversando qual savio mirabile:
