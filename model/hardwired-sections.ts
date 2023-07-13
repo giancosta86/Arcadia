@@ -85,6 +85,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "natura",
     name: "Quadri nella natura",
     compositionIds: [
+      "regno-tramonto",
       "gnomo-furetto",
       "drago-farfalla",
       "due-scoiattoli",
@@ -106,6 +107,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "brio",
     name: "Momenti briosi",
     compositionIds: [
+      "regno-tramonto",
       "la-gilda",
       "sfida-kebab",
       "il-capitano",
@@ -121,6 +123,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "personaggi-gentili",
     name: "Personaggi gentili",
     compositionIds: [
+      "regno-tramonto",
       "drago-farfalla",
       "ingegner-luna",
       "sommelier-meriggio",
@@ -137,6 +140,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "amore",
     name: "Amore",
     compositionIds: [
+      "regno-tramonto",
       "elisir-magico",
       "carrozza-fatata",
       "ode-primavera",
@@ -161,6 +165,8 @@ export const hardwiredSections: readonly Section[] = [
     id: "filosofia",
     name: "Filosofia",
     compositionIds: [
+      "regno-tramonto",
+      "gnomo-furetto",
       "drago-farfalla",
       "il-mare",
       "le-nuvole",
@@ -179,6 +185,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "vespro",
     name: "Pensieri nel vespro",
     compositionIds: [
+      "regno-tramonto",
       "drago-farfalla",
       "carrozza-fatata",
       "elisir-magico",
@@ -196,6 +203,8 @@ export const hardwiredSections: readonly Section[] = [
     id: "notte",
     name: "Quadri notturni",
     compositionIds: [
+      "regno-tramonto",
+      "gnomo-furetto",
       "drago-farfalla",
       "le-biciclette",
       "la-lune",
@@ -219,7 +228,8 @@ export const hardwiredSections: readonly Section[] = [
     id: "sole",
     name: "Quadri solari",
     compositionIds: [
-      "gnomo-furetto",
+      "regno-tramonto",
+      "drago-farfalla",
       "zenit-aurato",
       "sole-aurora",
       "martin-pescatore",
@@ -243,6 +253,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "rima-alternata",
     name: "Rima alternata",
     compositionIds: [
+      "regno-tramonto",
       "la-gilda",
       "martin-pescatore",
       "ingegner-luna",
@@ -319,6 +330,8 @@ export const hardwiredSections: readonly Section[] = [
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: [
+      "regno-tramonto",
+      "gnomo-furetto",
       "drago-farfalla",
       "ingegner-luna",
       "sommelier-meriggio",
@@ -373,6 +386,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "poesie",
     name: "Poesie",
     compositionIds: [
+      "regno-tramonto",
       "gnomo-furetto",
       "drago-farfalla",
       "ingegner-luna",
