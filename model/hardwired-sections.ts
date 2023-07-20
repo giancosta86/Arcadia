@@ -45,6 +45,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "poeta",
     name: "Il poeta",
     compositionIds: [
+      "sir-lancibbaffo",
       "gnomo-furetto",
       "le-nuvole",
       "sfida-kebab",
@@ -123,6 +124,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "personaggi-gentili",
     name: "Personaggi gentili",
     compositionIds: [
+      "sir-lancibbaffo",
       "regno-tramonto",
       "drago-farfalla",
       "ingegner-luna",
@@ -140,6 +142,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "amore",
     name: "Amore",
     compositionIds: [
+      "sir-lancibbaffo",
       "regno-tramonto",
       "elisir-magico",
       "carrozza-fatata",
@@ -165,6 +168,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "filosofia",
     name: "Filosofia",
     compositionIds: [
+      "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
       "drago-farfalla",
@@ -203,6 +207,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "notte",
     name: "Quadri notturni",
     compositionIds: [
+      "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
       "drago-farfalla",
@@ -299,6 +304,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "rima-incrociata",
     name: "Rima incrociata",
     compositionIds: [
+      "sir-lancibbaffo",
       "gnomo-furetto",
       "drago-farfalla",
       "dipinto-principesco",
@@ -330,6 +336,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: [
+      "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
       "drago-farfalla",
@@ -386,6 +393,7 @@ export const hardwiredSections: readonly Section[] = [
     id: "poesie",
     name: "Poesie",
     compositionIds: [
+      "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
       "drago-farfalla",
