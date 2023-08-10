@@ -9,8 +9,8 @@ export default function CompositionCover({ composition }: Props) {
   return (
     <div className="composition-cover">
       <time dateTime={composition.rawDate}>{composition.userDate}</time>
-      <Link href={`/${composition.id}`} passHref>
-        <a className="title">{composition.title}</a>
+      <Link href={`/${composition.id}`} passHref className="title">
+        {composition.title}
       </Link>
     </div>
   );

@@ -1,9 +1,12 @@
+import React from "react";
+import { join } from "node:path";
+import { readFile } from "node:fs/promises";
 import { GetStaticPaths, GetStaticProps } from "next";
-import path from "path";
-import { promises as fs } from "fs";
 import { compositionRepository, site } from "../globals";
+import { AnnotatedText } from "@giancosta86/hermes-react";
 import { toView, ViewComposition } from "../viewmodel/viewCompositions";
 import Layout from "../components/Layout";
+import { logograms } from "../viewmodel/logograms";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = compositionRepository.findAll().map(composition => ({
@@ -23,7 +26,7 @@ export const getStaticProps: GetStaticProps = async context => {
 
   const viewComposition = toView(composition);
 
-  viewComposition.htmlContent = await readCompositionHtmlContent(compositionId);
+  viewComposition.text = await readCompositionText(compositionId);
 
   return {
     props: {
@@ -42,32 +45,22 @@ export default function CompositionPage({ composition }: Props) {
       <div className="composition">
         <span className="title">{composition.title}</span>
 
-        <div
-          dangerouslySetInnerHTML={{
-            __html: composition.htmlContent ?? ""
-          }}
-        />
+        <div>
+          <AnnotatedText
+            text={composition.text ?? ""}
+            metadataByChar={logograms}
+          />
+        </div>
       </div>
     </Layout>
   );
 }
 
-async function readCompositionHtmlContent(
-  compositionId: string
-): Promise<string> {
-  const compositionFilePath = path.join(
+function readCompositionText(compositionId: string): Promise<string> {
+  const compositionFilePath = join(
     process.cwd(),
     "compositions",
     `${compositionId}.txt`
   );
-  const compositionContent = await fs.readFile(compositionFilePath, "utf-8");
-
-  const paragraphs = compositionContent.split("\n\n");
-
-  const htmlParagraphs = paragraphs.map(paragraph => {
-    const paragraphLines = paragraph.split("\n");
-    return `<p>${paragraphLines.join("<br/>\n")}</p>`;
-  });
-
-  return htmlParagraphs.join("\n");
+  return readFile(compositionFilePath, "utf-8");
 }

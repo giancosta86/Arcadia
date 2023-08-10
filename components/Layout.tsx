@@ -38,20 +38,20 @@ export default function Layout({ children, mainClass, title }: Props) {
       </Head>
 
       <header>
-        <Link href="/" passHref>
-          <a className="logo-banner">
-            <img src={site.getAbsolutePath("/logo.svg")} alt="Logo" />
-            <span className="title">Arcadia</span>
-          </a>
+        <Link href="/" passHref className="logo-banner">
+
+          <img src={site.getAbsolutePath("/logo.svg")} alt="Logo" />
+          <span className="title">Arcadia</span>
+
         </Link>
 
         <div className="menu">
-          <Link href="/sections" passHref>
-            <a className="button sections">Sections</a>
+          <Link href="/sections" passHref className="button sections">
+            Sections
           </Link>
 
-          <Link href="/about" passHref>
-            <a className="button about">About...</a>
+          <Link href="/about" passHref className="button about">
+            About...
           </Link>
         </div>
       </header>

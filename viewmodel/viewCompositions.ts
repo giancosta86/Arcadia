@@ -11,7 +11,7 @@ export interface ViewComposition {
   title: string;
   rawDate: string;
   userDate: string;
-  htmlContent?: string;
+  text?: string;
 }
 
 function rawFormatDate(date: Date): string {

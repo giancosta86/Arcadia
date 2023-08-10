@@ -8,8 +8,8 @@ interface Props {
 export default function SectionCover({ section }: Props) {
   return (
     <div className="section-cover">
-      <Link href={`/sections/${section.id}`} passHref>
-        <a className="name">{section.name}</a>
+      <Link href={`/sections/${section.id}`} passHref className="name">
+        {section.name}
       </Link>
 
       <span className="composition-count">
