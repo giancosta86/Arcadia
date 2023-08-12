@@ -39,10 +39,8 @@ export default function Layout({ children, mainClass, title }: Props) {
 
       <header>
         <Link href="/" passHref className="logo-banner">
-
           <img src={site.getAbsolutePath("/logo.svg")} alt="Logo" />
           <span className="title">Arcadia</span>
-
         </Link>
 
         <div className="menu">
