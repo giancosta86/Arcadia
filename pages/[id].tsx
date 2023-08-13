@@ -2,16 +2,17 @@ import React from "react";
 import { join } from "node:path";
 import { readFile } from "node:fs/promises";
 import { GetStaticPaths, GetStaticProps } from "next";
-import { compositionRepository, site } from "../globals";
 import { AnnotatedText } from "@giancosta86/hermes-react";
-import { toView, ViewComposition } from "../viewmodel/viewCompositions";
-import Layout from "../components/Layout";
-import { logograms } from "../viewmodel/logograms";
+import { Layout } from "../components";
+import { ViewComposition, Site, textAnnotations } from "../model";
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = compositionRepository.findAll().map(composition => ({
-    params: { id: composition.id }
-  }));
+  const paths = Site.compositionRepository
+    .findAll()
+    .map(composition => ({
+      params: { id: composition.id }
+    }))
+    .toArray();
 
   return { paths, fallback: false };
 };
@@ -19,14 +20,17 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async context => {
   const compositionId = context.params!.id as string;
 
-  const composition = compositionRepository.findById(compositionId);
+  const composition = Site.compositionRepository.findById(compositionId);
   if (composition === undefined) {
     throw new Error(`Could not find composition having id '${compositionId}'`);
   }
 
-  const viewComposition = toView(composition);
+  const text = await readCompositionText(compositionId);
 
-  viewComposition.text = await readCompositionText(compositionId);
+  const viewComposition = {
+    ...ViewComposition.from(composition),
+    text
+  };
 
   return {
     props: {
@@ -41,14 +45,14 @@ interface Props {
 
 export default function CompositionPage({ composition }: Props) {
   return (
-    <Layout title={`${composition.title} - ${site.shortTitle}`}>
+    <Layout title={`${composition.title} - ${Site.shortTitle}`}>
       <div className="composition">
         <span className="title">{composition.title}</span>
 
         <div>
           <AnnotatedText
             text={composition.text ?? ""}
-            metadataByChar={logograms}
+            metadataByChar={textAnnotations}
           />
         </div>
       </div>

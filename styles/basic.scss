@@ -20,17 +20,14 @@ a:visited {
   }
 }
 
-@mixin title-block {
+.page-title,
+.composition .title {
   display: block;
   text-align: center;
   font-weight: bold;
   margin-top: 0.5em;
   margin-bottom: 0.9em;
   font-size: 2em;
-}
-
-.page-title {
-  @include title-block();
 }
 
 .about-page {

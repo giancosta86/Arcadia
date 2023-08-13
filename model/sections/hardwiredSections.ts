@@ -1,10 +1,11 @@
-import { Section } from "./sections";
+import { List } from "@rimbu/list";
+import { Section } from "./Section";
 
-export const hardwiredSections: readonly Section[] = [
+export const hardwiredSections = List.of<Section>(
   {
     id: "cavalier-aurora",
     name: "Cavalier dell'Aurora",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "nel-vespro",
       "cavalier-aurora",
       "lai-passero",
@@ -22,12 +23,12 @@ export const hardwiredSections: readonly Section[] = [
       "sole-gentile",
       "sommelier-meriggio",
       "ingegner-luna"
-    ]
+    )
   },
   {
     id: "luna",
     name: "La luna",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "drago-farfalla",
       "la-lune",
       "cavalier-aurora",
@@ -39,12 +40,12 @@ export const hardwiredSections: readonly Section[] = [
       "mann-mond",
       "lai-passero",
       "imago-gentile"
-    ]
+    )
   },
   {
     id: "poeta",
     name: "Il poeta",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "sir-lancibbaffo",
       "gnomo-furetto",
       "le-nuvole",
@@ -54,17 +55,17 @@ export const hardwiredSections: readonly Section[] = [
       "i-tulipani",
       "les-fleurs",
       "il-banchetto"
-    ]
+    )
   },
   {
     id: "french",
     name: "Œuvres en Français",
-    compositionIds: ["les-fleurs", "la-lune", "arc-en-ciel"]
+    compositionIds: List.of<string>("les-fleurs", "la-lune", "arc-en-ciel")
   },
   {
     id: "prence-giglio",
     name: "Prence del Giglio",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "pre-alba",
       "telefono-tramonto",
       "prence-giglio",
@@ -80,12 +81,12 @@ export const hardwiredSections: readonly Section[] = [
       "sole-gentile",
       "sommelier-meriggio",
       "ingegner-luna"
-    ]
+    )
   },
   {
     id: "natura",
     name: "Quadri nella natura",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "regno-tramonto",
       "gnomo-furetto",
       "drago-farfalla",
@@ -102,12 +103,12 @@ export const hardwiredSections: readonly Section[] = [
       "les-fleurs",
       "le-nuvole",
       "arc-en-ciel"
-    ]
+    )
   },
   {
     id: "brio",
     name: "Momenti briosi",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "regno-tramonto",
       "la-gilda",
       "sfida-kebab",
@@ -118,12 +119,12 @@ export const hardwiredSections: readonly Section[] = [
       "les-fleurs",
       "i-gemelli",
       "due-scoiattoli"
-    ]
+    )
   },
   {
     id: "personaggi-gentili",
     name: "Personaggi gentili",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "sir-lancibbaffo",
       "regno-tramonto",
       "drago-farfalla",
@@ -136,12 +137,12 @@ export const hardwiredSections: readonly Section[] = [
       "fata-pinguina",
       "imago-gentile",
       "augel-cristallo"
-    ]
+    )
   },
   {
     id: "amore",
     name: "Amore",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "sir-lancibbaffo",
       "regno-tramonto",
       "elisir-magico",
@@ -162,12 +163,12 @@ export const hardwiredSections: readonly Section[] = [
       "imago-gentile",
       "cavalier-aurora",
       "la-lune"
-    ]
+    )
   },
   {
     id: "filosofia",
     name: "Filosofia",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
@@ -182,13 +183,13 @@ export const hardwiredSections: readonly Section[] = [
       "les-fleurs",
       "la-lune",
       "ingegner-luna"
-    ]
+    )
   },
 
   {
     id: "vespro",
     name: "Pensieri nel vespro",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "regno-tramonto",
       "drago-farfalla",
       "carrozza-fatata",
@@ -201,12 +202,12 @@ export const hardwiredSections: readonly Section[] = [
       "fata-pinguina",
       "il-mare",
       "le-nuvole"
-    ]
+    )
   },
   {
     id: "notte",
     name: "Quadri notturni",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
@@ -227,12 +228,12 @@ export const hardwiredSections: readonly Section[] = [
       "saggio-procione",
       "volpe-argentata",
       "mann-mond"
-    ]
+    )
   },
   {
     id: "sole",
     name: "Quadri solari",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "regno-tramonto",
       "drago-farfalla",
       "zenit-aurato",
@@ -242,22 +243,26 @@ export const hardwiredSections: readonly Section[] = [
       "sommelier-meriggio",
       "la-gilda",
       "il-mare"
-    ]
+    )
   },
   {
     id: "alba",
     name: "La magia dell'alba",
-    compositionIds: ["pre-alba", "il-mare"]
+    compositionIds: List.of<string>("pre-alba", "il-mare")
   },
   {
     id: "imago-gentile",
     name: "Imago gentile",
-    compositionIds: ["imago-gentile", "il-banchetto", "ode-primavera"]
+    compositionIds: List.of<string>(
+      "imago-gentile",
+      "il-banchetto",
+      "ode-primavera"
+    )
   },
   {
     id: "rima-alternata",
     name: "Rima alternata",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "regno-tramonto",
       "la-gilda",
       "martin-pescatore",
@@ -277,12 +282,12 @@ export const hardwiredSections: readonly Section[] = [
       "briscola",
       "cavalier-aurora",
       "il-mare"
-    ]
+    )
   },
   {
     id: "rima-baciata",
     name: "Rima baciata",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "due-scoiattoli",
       "arc-en-ciel",
       "sommelier-meriggio",
@@ -298,44 +303,48 @@ export const hardwiredSections: readonly Section[] = [
       "nel-vespro",
       "le-biciclette",
       "aquila-pinguino"
-    ]
+    )
   },
   {
     id: "rima-incrociata",
     name: "Rima incrociata",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "sir-lancibbaffo",
       "gnomo-furetto",
       "drago-farfalla",
       "dipinto-principesco",
       "imago-gentile"
-    ]
+    )
   },
   {
     id: "rima-dimezzata",
     name: "Rima dimezzata",
-    compositionIds: ["i-tulipani"]
+    compositionIds: List.of<string>("i-tulipani")
   },
   {
     id: "rime-miste",
     name: "Rime miste",
-    compositionIds: ["saggio-procione"]
+    compositionIds: List.of<string>("saggio-procione")
   },
   {
     id: "versi-liberi",
     name: "Versi liberi",
-    compositionIds: ["sole-gentile"]
+    compositionIds: List.of<string>("sole-gentile")
   },
   {
     id: "sonetti",
     name: "Sonetti",
-    compositionIds: ["prence-giglio", "telefono-tramonto", "il-capitano"]
+    compositionIds: List.of<string>(
+      "prence-giglio",
+      "telefono-tramonto",
+      "il-capitano"
+    )
   },
-  { id: "odi", name: "Odi", compositionIds: ["ode-primavera"] },
+  { id: "odi", name: "Odi", compositionIds: List.of<string>("ode-primavera") },
   {
     id: "italiano",
     name: "Brani in Italiano",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
@@ -376,23 +385,23 @@ export const hardwiredSections: readonly Section[] = [
       "due-scoiattoli",
       "le-biciclette",
       "aquila-pinguino"
-    ]
+    )
   },
 
   {
     id: "german",
     name: "Brani in Tedesco",
-    compositionIds: ["mann-mond"]
+    compositionIds: List.of<string>("mann-mond")
   },
   {
     id: "pinyin",
     name: "Pīnyīn",
-    compositionIds: ["drago-farfalla"]
+    compositionIds: List.of<string>("drago-farfalla")
   },
   {
     id: "poesie",
     name: "Poesie",
-    compositionIds: [
+    compositionIds: List.of<string>(
       "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
@@ -437,6 +446,6 @@ export const hardwiredSections: readonly Section[] = [
       "due-scoiattoli",
       "le-biciclette",
       "aquila-pinguino"
-    ]
+    )
   }
-];
+);

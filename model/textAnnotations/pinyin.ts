@@ -1,7 +1,7 @@
-import { Char, CharMetadata, Pinyin } from "@giancosta86/hermes-react";
 import { HashMap } from "@rimbu/hashed";
+import { Char, CharMetadata, Pinyin } from "@giancosta86/hermes-react";
 
-export const logograms = HashMap.of<Char, CharMetadata>(
+export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
   [
     "我",
     {

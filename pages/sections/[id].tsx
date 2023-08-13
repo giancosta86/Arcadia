@@ -1,14 +1,15 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import CompositionList from "../../components/CompositionList";
-import Layout from "../../components/Layout";
-import { sectionRepository, site, tableOfContents } from "../../globals";
-import { toView, ViewComposition } from "../../viewmodel/viewCompositions";
-import { ViewSection } from "../../viewmodel/viewSections";
+import { Stream } from "@rimbu/stream";
+import { CompositionList, Layout } from "../../components";
+import { ViewSection, ViewComposition, Site } from "../../model";
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = sectionRepository.findAll().map(section => ({
-    params: { id: section.id }
-  }));
+  const paths = Site.sectionRepository
+    .findAll()
+    .map(section => ({
+      params: { id: section.id }
+    }))
+    .toArray();
 
   return { paths, fallback: false };
 };
@@ -16,29 +17,36 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async context => {
   const sectionId = context.params!.id as string;
 
-  const section = sectionRepository.findById(sectionId);
+  const section = Site.sectionRepository.findById(sectionId);
   if (section === undefined) {
     throw new Error(`Could not find section having id '${sectionId}'`);
   }
 
-  const compositions = tableOfContents.findCompositionsFor(section);
+  const viewSection = ViewSection.from(section);
+
+  const compositions = Site.tableOfContents.findCompositionsFor(section);
 
   return {
     props: {
-      section,
-      compositions: compositions.map(composition => toView(composition))
+      section: viewSection,
+      compositions: compositions
+        .map(composition => ViewComposition.from(composition))
+        .toArray()
     }
   };
 };
 
-interface Props {
+export interface SectionPageProps {
   section: ViewSection;
-  compositions: readonly ViewComposition[];
+  compositions: Stream<ViewComposition>;
 }
 
-export default function SectionPage({ section, compositions }: Props) {
+export default function SectionPage({
+  section,
+  compositions
+}: SectionPageProps) {
   return (
-    <Layout title={`${site.shortTitle} - ${section.name}`}>
+    <Layout title={`${Site.shortTitle} - ${section.name}`}>
       <span className="page-title">{section.name}</span>
 
       <CompositionList compositions={compositions} />

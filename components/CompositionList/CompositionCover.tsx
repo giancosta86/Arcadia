@@ -1,14 +1,14 @@
 import Link from "next/link";
-import { ViewComposition } from "../viewmodel/viewCompositions";
+import { ViewComposition } from "../../model";
 
-interface Props {
+export interface CompositionCoverProps {
   composition: ViewComposition;
 }
 
-export default function CompositionCover({ composition }: Props) {
+export function CompositionCover({ composition }: CompositionCoverProps) {
   return (
     <div className="composition-cover">
-      <time dateTime={composition.rawDate}>{composition.userDate}</time>
+      <time dateTime={composition.isoDate}>{composition.localizedDate}</time>
       <Link href={`/${composition.id}`} passHref className="title">
         {composition.title}
       </Link>

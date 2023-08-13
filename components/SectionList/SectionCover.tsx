@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { ViewSection } from "../viewmodel/viewSections";
+import { ViewSection } from "../../model";
 
-interface Props {
+export interface SectionCoverProps {
   section: ViewSection;
 }
 
-export default function SectionCover({ section }: Props) {
+export function SectionCover({ section }: SectionCoverProps) {
   return (
     <div className="section-cover">
       <Link href={`/sections/${section.id}`} passHref className="name">

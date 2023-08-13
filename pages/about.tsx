@@ -1,7 +1,6 @@
 import React from "react";
-import ExternalLink from "../components/ExternalLink";
-import Layout from "../components/Layout";
-import { links } from "../globals";
+import { ExternalLink, Layout } from "../components";
+import { ExternalLinks } from "../model";
 
 export default function About() {
   return (
@@ -32,7 +31,7 @@ export default function About() {
       <p>
         All the material related to Arcadia&apos;s GitHub project is licensed
         under a{" "}
-        <ExternalLink href={links.license}>
+        <ExternalLink href={ExternalLinks.license}>
           Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
           License
         </ExternalLink>

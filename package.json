@@ -1,6 +1,6 @@
 {
   "name": "arcadia",
-  "version": "5.3",
+  "version": "6.0-alpha.1",
   "private": true,
   "scripts": {
     "clean": "rimraf .next out",
@@ -17,9 +17,16 @@
     "rebuild": "yarn clean && yarn build && yarn export"
   },
   "dependencies": {
+    "@giancosta86/hermes": "^1.0.4",
     "@giancosta86/hermes-react": "^1.0.0",
+    "@giancosta86/time-utils": "^3.0.0",
     "@rimbu/collection-types": "^1.1.0",
+    "@rimbu/common": "^1.1.0",
     "@rimbu/hashed": "^1.1.0",
+    "@rimbu/list": "^1.1.0",
+    "@rimbu/ordered": "^1.1.0",
+    "@rimbu/stream": "^1.1.0",
+    "classnames": "^2.3.2",
     "next": "^13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

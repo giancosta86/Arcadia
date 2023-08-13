@@ -1,16 +1,14 @@
-import CompositionList from "../components/CompositionList";
-import Layout from "../components/Layout";
-import { compositionRepository } from "../globals";
-import { toView } from "../viewmodel/viewCompositions";
+import { CompositionList, Layout } from "../components";
+import { ViewComposition, Site } from "../model";
 
 export default function Home() {
   return (
     <Layout>
       <div>
         <CompositionList
-          compositions={[...compositionRepository.findAll()]
-            .sort((left, right) => right.date.getTime() - left.date.getTime())
-            .map(composition => toView(composition))}
+          compositions={Site.compositionRepository
+            .findAll()
+            .map(composition => ViewComposition.from(composition))}
         />
       </div>
     </Layout>

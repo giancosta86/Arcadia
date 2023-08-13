@@ -1,45 +1,48 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Link from "next/link";
-import { links, site } from "../globals";
-import ExternalLink from "./ExternalLink";
+import classnames from "classnames";
 import packageInfo from "../package.json";
+import { ExternalLinks, Site } from "../model";
+import { ExternalLink } from "./ExternalLink";
 
-interface Props {
+export interface LayoutProps {
   children: React.ReactNode;
   title?: string;
   mainClass?: string;
 }
 
-export default function Layout({ children, mainClass, title }: Props) {
+export function Layout({ children, mainClass, title }: LayoutProps) {
   const { asPath: absolutePathInContext } = useRouter();
+
+  const fullAbsolutePath = Site.getAbsolutePath(absolutePathInContext);
 
   return (
     <div className="layout">
       <Head>
-        <title>{title ?? site.longTitle}</title>
+        <title>{title ?? Site.longTitle}</title>
 
-        <link rel="icon" href={site.getAbsolutePath("/favicon.ico")} />
+        <link rel="icon" href={Site.getAbsolutePath("/favicon.ico")} />
         <meta name="author" content="Gianluca Costa" />
         <meta name="description" content="Dreams and Poetry" />
         <meta name="version" content={packageInfo.version} />
 
-        <meta property="og:title" content={title ?? site.longTitle} />
+        <meta property="og:title" content={title ?? Site.longTitle} />
         <meta property="og:description" content="Dreams and Poetry" />
-        <meta property="og:image" content={site.getUrl("/preview.png")} />
-        <meta property="og:url" content={site.getUrl(absolutePathInContext)} />
+        <meta property="og:image" content={Site.getFullUrl("/preview.png")} />
+        <meta property="og:url" content={fullAbsolutePath} />
 
         <link
           rel="manifest"
-          href={site.getAbsolutePath("/manifest.webmanifest")}
+          href={Site.getAbsolutePath("/manifest.webmanifest")}
         ></link>
 
-        <link rel="canonical" href={site.getUrl(absolutePathInContext)} />
+        <link rel="canonical" href={fullAbsolutePath} />
       </Head>
 
       <header>
         <Link href="/" passHref className="logo-banner">
-          <img src={site.getAbsolutePath("/logo.svg")} alt="Logo" />
+          <img src={Site.getAbsolutePath("/logo.svg")} alt="Logo" />
           <span className="title">Arcadia</span>
         </Link>
 
@@ -54,12 +57,14 @@ export default function Layout({ children, mainClass, title }: Props) {
         </div>
       </header>
 
-      <div className={`main ${mainClass ?? ""}`.trim()}>{children}</div>
+      <div className={classnames("main", mainClass)}>{children}</div>
 
       <footer>
         <hr />
         Copyright ©{" "}
-        <ExternalLink href={links.gcwebsite}>Gianluca Costa</ExternalLink>
+        <ExternalLink href={ExternalLinks.gcWebsite}>
+          Gianluca Costa
+        </ExternalLink>
       </footer>
     </div>
   );

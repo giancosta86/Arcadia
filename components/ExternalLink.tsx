@@ -1,18 +1,17 @@
-interface Props {
+export interface ExternalLinkProps {
   href: string;
   className?: string;
   children: React.ReactNode;
 }
 
-export default function ExternalLink(props: Props) {
+export const ExternalLink = ({
+  href,
+  className,
+  children
+}: ExternalLinkProps) => {
   return (
-    <a
-      href={props.href}
-      className={props.className}
-      target="_blank"
-      rel="noreferrer"
-    >
-      {props.children}
+    <a href={href} className={className} target="_blank" rel="noreferrer">
+      {children}
     </a>
   );
-}
+};

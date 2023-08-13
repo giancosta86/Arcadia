@@ -54,6 +54,22 @@
     "@rimbu/collection-types" "^1.1.0"
     classnames "^2.3.2"
 
+"@giancosta86/hermes@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@giancosta86/hermes/-/hermes-1.0.4.tgz#4b63ccdbed3b8beb5a73da8b7fcd31e9e6de9ce3"
+  integrity sha512-wv6Ui5BBzjxvDyrd6WtHWCPYLuMiQzG0VD3aLje4aOIXiz4Q2EJSLPstKSCYkMHf7Rz70eM90GSBApaIWxw1jA==
+  dependencies:
+    "@giancosta86/time-utils" "^3.0.0"
+    "@rimbu/collection-types" "^1.1.0"
+    "@rimbu/hashed" "^1.1.0"
+    "@rimbu/proximity" "^1.1.0"
+    "@rimbu/stream" "^1.1.0"
+
+"@giancosta86/time-utils@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@giancosta86/time-utils/-/time-utils-3.0.0.tgz#23fb1d5f3bae6d2bdd6a0813f2d08b88c1abb61b"
+  integrity sha512-nCEDgKfgDzT5freFAvGAidBrD7RuwGadc3jc84ZaH4FJShpyInsgTuoMdgF6TgEVXveqV+OSGqRDZ0o8fSC3Ow==
+
 "@humanwhocodes/config-array@^0.11.10":
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.10.tgz#5a3ffe32cc9306365fb3fd572596cd602d5e12d2"
@@ -209,6 +225,43 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@rimbu/list/-/list-1.1.0.tgz#472001540e7ac72b55afe1e014a500df8554ecd3"
   integrity sha512-u7ICHtnz57pg/qjA9bPolgxtUplJ1oitrOF9lUCtL92MkqTyIcf3qC2arbizIYc2U7mDB2hFphEOrzSk79dczA==
+  dependencies:
+    "@rimbu/base" "^1.1.0"
+    "@rimbu/collection-types" "^1.1.0"
+    "@rimbu/common" "^1.1.0"
+    "@rimbu/stream" "^1.1.0"
+    tslib "^2.6.1"
+
+"@rimbu/ordered@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@rimbu/ordered/-/ordered-1.1.0.tgz#5041a2941a6fd368191d20cbcceedf9941007121"
+  integrity sha512-Jk8uDorP6GXFOp5W3DaZnVU6Ig7GVPfBLzKrCPg2B5XXH59gNX47BwLlg72A7tveGO13a9hYf4I+7shEfJEqYQ==
+  dependencies:
+    "@rimbu/base" "^1.1.0"
+    "@rimbu/collection-types" "^1.1.0"
+    "@rimbu/common" "^1.1.0"
+    "@rimbu/hashed" "^1.1.0"
+    "@rimbu/list" "^1.1.0"
+    "@rimbu/sorted" "^1.1.0"
+    "@rimbu/stream" "^1.1.0"
+    tslib "^2.6.1"
+
+"@rimbu/proximity@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@rimbu/proximity/-/proximity-1.1.0.tgz#4a3c9b3475c31a52553dcb17a782867226759cfc"
+  integrity sha512-5Nx/a6XnOTVHBDKT0+uK0DiFhCigfWqsR9LTIOYTZamgzaLbqCOwGZS8iNsCopPbRKeZ516BTteHOdCnJQvWgg==
+  dependencies:
+    "@rimbu/base" "^1.1.0"
+    "@rimbu/collection-types" "^1.1.0"
+    "@rimbu/common" "^1.1.0"
+    "@rimbu/hashed" "^1.1.0"
+    "@rimbu/stream" "^1.1.0"
+    tslib "^2.6.1"
+
+"@rimbu/sorted@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@rimbu/sorted/-/sorted-1.1.0.tgz#8297205a96b7f40403539d652edf00189ddc4c8b"
+  integrity sha512-HvP+RSoT0Zzoy9STTc9LB10Occ0EBspRjMWwSVrCBv0Uqsb1EqxzTtH1bSx2zD/a+TeFuj4QSaKUgOBMmT++gA==
   dependencies:
     "@rimbu/base" "^1.1.0"
     "@rimbu/collection-types" "^1.1.0"
