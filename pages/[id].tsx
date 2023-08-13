@@ -39,6 +39,15 @@ export const getStaticProps: GetStaticProps = async context => {
   };
 };
 
+function readCompositionText(compositionId: string): Promise<string> {
+  const compositionFilePath = join(
+    process.cwd(),
+    "compositions",
+    `${compositionId}.txt`
+  );
+  return readFile(compositionFilePath, "utf-8");
+}
+
 interface Props {
   composition: ViewComposition;
 }
@@ -58,13 +67,4 @@ export default function CompositionPage({ composition }: Props) {
       </div>
     </Layout>
   );
-}
-
-function readCompositionText(compositionId: string): Promise<string> {
-  const compositionFilePath = join(
-    process.cwd(),
-    "compositions",
-    `${compositionId}.txt`
-  );
-  return readFile(compositionFilePath, "utf-8");
 }

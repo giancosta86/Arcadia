@@ -5,7 +5,7 @@ export interface SectionCoverProps {
   section: ViewSection;
 }
 
-export function SectionCover({ section }: SectionCoverProps) {
+export const SectionCover = ({ section }: SectionCoverProps) => {
   return (
     <div className="section-cover">
       <Link href={`/sections/${section.id}`} passHref className="name">
@@ -17,4 +17,4 @@ export function SectionCover({ section }: SectionCoverProps) {
       </span>
     </div>
   );
-}
+};

@@ -7,7 +7,7 @@ export interface CompositionListProps {
   compositions: Stream<ViewComposition>;
 }
 
-export function CompositionList(props: CompositionListProps) {
+export const CompositionList = (props: CompositionListProps) => {
   return (
     <div className={classnames("compositions", "list")}>
       {props.compositions.map(composition => (
@@ -15,4 +15,4 @@ export function CompositionList(props: CompositionListProps) {
       ))}
     </div>
   );
-}
+};

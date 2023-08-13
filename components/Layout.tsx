@@ -12,7 +12,7 @@ export interface LayoutProps {
   mainClass?: string;
 }
 
-export function Layout({ children, mainClass, title }: LayoutProps) {
+export const Layout = ({ children, mainClass, title }: LayoutProps) => {
   const { asPath: absolutePathInContext } = useRouter();
 
   const fullAbsolutePath = Site.getAbsolutePath(absolutePathInContext);
@@ -68,4 +68,4 @@ export function Layout({ children, mainClass, title }: LayoutProps) {
       </footer>
     </div>
   );
-}
+};

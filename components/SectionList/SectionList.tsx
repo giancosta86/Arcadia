@@ -7,7 +7,7 @@ interface Props {
   sections: Stream<ViewSection>;
 }
 
-export function SectionList(props: Props) {
+export const SectionList = (props: Props) => {
   return (
     <div className={classnames("sections", "list")}>
       {props.sections.map(section => (
@@ -15,4 +15,4 @@ export function SectionList(props: Props) {
       ))}
     </div>
   );
-}
+};

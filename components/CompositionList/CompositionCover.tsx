@@ -5,7 +5,7 @@ export interface CompositionCoverProps {
   composition: ViewComposition;
 }
 
-export function CompositionCover({ composition }: CompositionCoverProps) {
+export const CompositionCover = ({ composition }: CompositionCoverProps) => {
   return (
     <div className="composition-cover">
       <time dateTime={composition.isoDate}>{composition.localizedDate}</time>
@@ -14,4 +14,4 @@ export function CompositionCover({ composition }: CompositionCoverProps) {
       </Link>
     </div>
   );
-}
+};
