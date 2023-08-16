@@ -6,7 +6,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "我",
     {
       annotation: "wǒ",
-      classes: Pinyin.fallingRising
+      className: Pinyin.fallingRising
     }
   ],
 
@@ -14,7 +14,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "小",
     {
       annotation: "xiǎo",
-      classes: Pinyin.fallingRising
+      className: Pinyin.fallingRising
     }
   ],
 
@@ -22,7 +22,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "的",
     {
       annotation: "de",
-      classes: Pinyin.neuter
+      className: Pinyin.neuter
     }
   ],
 
@@ -30,7 +30,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "朋",
     {
       annotation: "péng",
-      classes: Pinyin.rising
+      className: Pinyin.rising
     }
   ],
 
@@ -38,7 +38,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "友",
     {
       annotation: "you",
-      classes: Pinyin.neuter
+      className: Pinyin.neuter
     }
   ],
 
@@ -46,7 +46,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "您",
     {
       annotation: "nín",
-      classes: Pinyin.rising
+      className: Pinyin.rising
     }
   ],
 
@@ -54,7 +54,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "好",
     {
       annotation: "hǎo",
-      classes: Pinyin.fallingRising
+      className: Pinyin.fallingRising
     }
   ],
 
@@ -62,7 +62,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "吗",
     {
       annotation: "ma",
-      classes: Pinyin.neuter
+      className: Pinyin.neuter
     }
   ],
 
@@ -70,7 +70,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "请",
     {
       annotation: "qǐng",
-      classes: Pinyin.fallingRising
+      className: Pinyin.fallingRising
     }
   ],
 
@@ -78,7 +78,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "来",
     {
       annotation: "lái",
-      classes: Pinyin.rising
+      className: Pinyin.rising
     }
   ],
 
@@ -86,7 +86,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "喝",
     {
       annotation: "hē",
-      classes: Pinyin.flat
+      className: Pinyin.flat
     }
   ],
 
@@ -94,7 +94,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "杯",
     {
       annotation: "bēi",
-      classes: Pinyin.flat
+      className: Pinyin.flat
     }
   ],
 
@@ -102,7 +102,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "茶",
     {
       annotation: "chá",
-      classes: Pinyin.rising
+      className: Pinyin.rising
     }
   ],
 
@@ -110,7 +110,7 @@ export const pinyinAnnotations = HashMap.of<Char, CharMetadata>(
     "吧",
     {
       annotation: "ba",
-      classes: Pinyin.neuter
+      className: Pinyin.neuter
     }
   ]
 );

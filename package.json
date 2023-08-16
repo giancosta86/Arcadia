@@ -1,6 +1,6 @@
 {
   "name": "arcadia",
-  "version": "6.0",
+  "version": "6.0.1",
   "private": true,
   "scripts": {
     "clean": "rimraf .next out",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@giancosta86/hermes": "^1.0.4",
-    "@giancosta86/hermes-react": "^1.0.0",
+    "@giancosta86/hermes-react": "^2.0.0",
     "@giancosta86/time-utils": "^3.0.0",
     "@rimbu/collection-types": "^1.1.0",
     "@rimbu/common": "^1.1.0",

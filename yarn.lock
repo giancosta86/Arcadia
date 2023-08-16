@@ -46,10 +46,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.47.0.tgz#5478fdf443ff8158f9de171c704ae45308696c7d"
   integrity sha512-P6omY1zv5MItm93kLM8s2vr1HICJH8v0dvddDhysbIuZ+vcjOHg5Zbkf1mTkcmi2JA9oBG2anOkRnW8WJTS8Og==
 
-"@giancosta86/hermes-react@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@giancosta86/hermes-react/-/hermes-react-1.0.0.tgz#476fad82dcae69f5479aa37cc2000205c475b5d7"
-  integrity sha512-6mvvepQYDlM8DzQAYEbl2RgT9nPj9Su/GMuhNqKwC+AUet6SeDpCul06zogksdoFpZxfgVXSAoq+8oDMRy3CmQ==
+"@giancosta86/hermes-react@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@giancosta86/hermes-react/-/hermes-react-2.0.0.tgz#f26afd5827b2778fa2b153453a68edbcd95a3004"
+  integrity sha512-8CePTiEuOj4BlxfN54nmgQ2iTZVinCs0mfncjOtdA7ThBg6S/OIj4rDwVy5/NW/TCBwa10Tz3p6HluyIg42ymQ==
   dependencies:
     "@rimbu/collection-types" "^1.1.0"
     classnames "^2.3.2"

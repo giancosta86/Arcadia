@@ -4,4 +4,4 @@ export * from "./sections";
 
 export * from "./site";
 
-export * from "./textAnnotations";
+export * from "./textDecorations";

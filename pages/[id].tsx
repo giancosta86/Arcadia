@@ -2,7 +2,7 @@ import React from "react";
 import { join } from "node:path";
 import { readFile } from "node:fs/promises";
 import { GetStaticPaths, GetStaticProps } from "next";
-import { AnnotatedText } from "@giancosta86/hermes-react";
+import { DecoratedText } from "@giancosta86/hermes-react";
 import { Layout } from "../components";
 import { ViewComposition, Site, textAnnotations } from "../model";
 
@@ -59,7 +59,7 @@ export default function CompositionPage({ composition }: Props) {
         <span className="title">{composition.title}</span>
 
         <div>
-          <AnnotatedText
+          <DecoratedText
             text={composition.text ?? ""}
             metadataByChar={textAnnotations}
           />
