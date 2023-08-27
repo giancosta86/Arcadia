@@ -1,6 +1,6 @@
 {
   "name": "arcadia",
-  "version": "6.0.1",
+  "version": "6.0.2",
   "private": true,
   "scripts": {
     "clean": "rimraf .next out",
@@ -32,7 +32,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^16",
+    "@types/node": "^18",
     "@types/react": "^18.2.20",
     "eslint": "^8.47.0",
     "eslint-config-next": "^13.1.1",
@@ -40,5 +40,8 @@
     "rimraf": "^5.0.1",
     "sass": "^1.57.1",
     "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.17.1"
   }
 }
