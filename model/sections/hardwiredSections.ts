@@ -46,6 +46,7 @@ export const hardwiredSections = List.of<Section>(
     id: "poeta",
     name: "Il poeta",
     compositionIds: List.of<string>(
+      "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "gnomo-furetto",
       "le-nuvole",
@@ -169,6 +170,7 @@ export const hardwiredSections = List.of<Section>(
     id: "filosofia",
     name: "Filosofia",
     compositionIds: List.of<string>(
+      "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
@@ -190,6 +192,7 @@ export const hardwiredSections = List.of<Section>(
     id: "vespro",
     name: "Pensieri nel vespro",
     compositionIds: List.of<string>(
+      "apocalissi-scimmiesca",
       "regno-tramonto",
       "drago-farfalla",
       "carrozza-fatata",
@@ -309,6 +312,7 @@ export const hardwiredSections = List.of<Section>(
     id: "rima-incrociata",
     name: "Rima incrociata",
     compositionIds: List.of<string>(
+      "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "gnomo-furetto",
       "drago-farfalla",
@@ -345,6 +349,7 @@ export const hardwiredSections = List.of<Section>(
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: List.of<string>(
+      "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
@@ -394,14 +399,84 @@ export const hardwiredSections = List.of<Section>(
     compositionIds: List.of<string>("mann-mond")
   },
   {
-    id: "pinyin",
-    name: "Pīnyīn",
+    id: "chinese",
+    name: "Cinese",
     compositionIds: List.of<string>("drago-farfalla")
+  },
+  {
+    id: "season-4",
+    name: "Season 4",
+    compositionIds: List.of<string>(
+      "apocalissi-scimmiesca",
+      "sir-lancibbaffo",
+      "regno-tramonto",
+      "gnomo-furetto",
+      "drago-farfalla"
+    )
+  },
+  {
+    id: "season-3",
+    name: "Season 3",
+    compositionIds: List.of<string>(
+      "ingegner-luna",
+      "sommelier-meriggio",
+      "la-gilda",
+      "sole-gentile",
+      "i-tulipani",
+      "ballo-principe",
+      "dipinto-principesco",
+      "saggio-procione",
+      "martin-pescatore",
+      "sole-aurora",
+      "sfida-kebab",
+      "carrozza-fatata",
+      "zenit-aurato",
+      "elisir-magico",
+      "prence-giglio",
+      "telefono-tramonto",
+      "pre-alba"
+    )
+  },
+  {
+    id: "season-2",
+    name: "Season 2",
+    compositionIds: List.of<string>(
+      "il-capitano",
+      "ode-primavera",
+      "il-banchetto",
+      "mann-mond",
+      "volpe-argentata"
+    )
+  },
+  {
+    id: "season-1",
+    name: "Season 1",
+    compositionIds: List.of<string>(
+      "lai-passero",
+      "fata-pinguina",
+      "imago-gentile",
+      "briscola",
+      "cavalier-aurora",
+      "il-mare",
+      "augel-cristallo",
+      "les-fleurs",
+      "mezzanotte",
+      "la-lune",
+      "arc-en-ciel",
+      "le-nuvole",
+      "i-gemelli",
+      "la-rondine",
+      "nel-vespro",
+      "due-scoiattoli",
+      "le-biciclette",
+      "aquila-pinguino"
+    )
   },
   {
     id: "poesie",
     name: "Poesie",
     compositionIds: List.of<string>(
+      "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
