@@ -1,5 +1,6 @@
 .compositions.list {
   padding-left: 1em;
+  text-align: center;
 
   .composition-cover {
     margin-top: 1.5em;
@@ -7,14 +8,15 @@
 
     time {
       display: block;
-      font-size: 0.8em;
+      font-size: 0.9em;
       font-style: italic;
       color: silver;
       margin-bottom: 0.2em;
     }
 
     .title {
-      font-size: 1.4em;
+      font-family: "Crimson Pro", serif;
+      font-size: 1.6em;
     }
   }
 }
