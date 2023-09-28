@@ -29,6 +29,8 @@ export const hardwiredSections = List.of<Section>(
     id: "luna",
     name: "La luna",
     compositionIds: List.of<string>(
+      "re-fiori",
+      "regno-tramonto",
       "drago-farfalla",
       "la-lune",
       "cavalier-aurora",
@@ -88,6 +90,7 @@ export const hardwiredSections = List.of<Section>(
     id: "natura",
     name: "Quadri nella natura",
     compositionIds: List.of<string>(
+      "re-fiori",
       "regno-tramonto",
       "gnomo-furetto",
       "drago-farfalla",
@@ -170,6 +173,7 @@ export const hardwiredSections = List.of<Section>(
     id: "filosofia",
     name: "Filosofia",
     compositionIds: List.of<string>(
+      "re-fiori",
       "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "regno-tramonto",
@@ -192,6 +196,7 @@ export const hardwiredSections = List.of<Section>(
     id: "vespro",
     name: "Pensieri nel vespro",
     compositionIds: List.of<string>(
+      "re-fiori",
       "apocalissi-scimmiesca",
       "regno-tramonto",
       "drago-farfalla",
@@ -211,6 +216,7 @@ export const hardwiredSections = List.of<Section>(
     id: "notte",
     name: "Quadri notturni",
     compositionIds: List.of<string>(
+      "re-fiori",
       "sir-lancibbaffo",
       "regno-tramonto",
       "gnomo-furetto",
@@ -266,6 +272,7 @@ export const hardwiredSections = List.of<Section>(
     id: "rima-alternata",
     name: "Rima alternata",
     compositionIds: List.of<string>(
+      "re-fiori",
       "regno-tramonto",
       "la-gilda",
       "martin-pescatore",
@@ -349,6 +356,7 @@ export const hardwiredSections = List.of<Section>(
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: List.of<string>(
+      "re-fiori",
       "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "regno-tramonto",
@@ -407,6 +415,7 @@ export const hardwiredSections = List.of<Section>(
     id: "season-4",
     name: "Season 4",
     compositionIds: List.of<string>(
+      "re-fiori",
       "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "regno-tramonto",
@@ -476,6 +485,7 @@ export const hardwiredSections = List.of<Section>(
     id: "poesie",
     name: "Poesie",
     compositionIds: List.of<string>(
+      "re-fiori",
       "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "regno-tramonto",
