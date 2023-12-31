@@ -6,6 +6,7 @@ export const hardwiredSections = List.of<Section>(
     id: "season-4",
     name: "Season 4",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "canzone-panda",
       "re-fiori",
       "apocalissi-scimmiesca",
@@ -158,6 +159,7 @@ export const hardwiredSections = List.of<Section>(
     id: "drago-oriente",
     name: "Drago d'Oriente",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "canzone-panda",
       "re-fiori",
       "apocalissi-scimmiesca",
@@ -169,6 +171,7 @@ export const hardwiredSections = List.of<Section>(
     id: "drago-infernale",
     name: "Drago infernale",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "canzone-panda",
       "re-fiori",
       "apocalissi-scimmiesca",
@@ -182,6 +185,7 @@ export const hardwiredSections = List.of<Section>(
     id: "matta-mummia",
     name: "Matta mummia",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "canzone-panda",
       "re-fiori",
       "sir-lancibbaffo"
@@ -191,6 +195,7 @@ export const hardwiredSections = List.of<Section>(
     id: "gnomo-furetto-iena",
     name: "Gnomo, furetto, iena",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "regno-tramonto",
@@ -242,6 +247,7 @@ export const hardwiredSections = List.of<Section>(
     id: "personaggi-gentili",
     name: "Personaggi gentili",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "canzone-panda",
       "re-fiori",
       "sir-lancibbaffo",
@@ -262,6 +268,7 @@ export const hardwiredSections = List.of<Section>(
     id: "amore",
     name: "Amore",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "canzone-panda",
       "sir-lancibbaffo",
       "regno-tramonto",
@@ -289,6 +296,7 @@ export const hardwiredSections = List.of<Section>(
     id: "filosofia",
     name: "Filosofia",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "canzone-panda",
       "re-fiori",
       "apocalissi-scimmiesca",
@@ -333,6 +341,7 @@ export const hardwiredSections = List.of<Section>(
     id: "notte",
     name: "Quadri notturni",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "canzone-panda",
       "re-fiori",
       "sir-lancibbaffo",
@@ -390,6 +399,7 @@ export const hardwiredSections = List.of<Section>(
     id: "rima-alternata",
     name: "Rima alternata",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "re-fiori",
       "regno-tramonto",
       "la-gilda",
@@ -475,6 +485,7 @@ export const hardwiredSections = List.of<Section>(
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: List.of<string>(
+      "mummia-infernale",
       "canzone-panda",
       "re-fiori",
       "apocalissi-scimmiesca",
@@ -539,6 +550,8 @@ export const hardwiredSections = List.of<Section>(
     id: "poesie",
     name: "Poesie",
     compositionIds: List.of<string>(
+      "mummia-infernale",
+      "canzone-panda",
       "re-fiori",
       "apocalissi-scimmiesca",
       "sir-lancibbaffo",
