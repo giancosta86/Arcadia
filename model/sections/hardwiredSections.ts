@@ -6,6 +6,7 @@ export const hardwiredSections = List.of<Section>(
     id: "season-4",
     name: "Season 4",
     compositionIds: List.of<string>(
+      "baffi-west",
       "mummia-infernale",
       "canzone-panda",
       "re-fiori",
@@ -159,6 +160,7 @@ export const hardwiredSections = List.of<Section>(
     id: "drago-oriente",
     name: "Drago d'Oriente",
     compositionIds: List.of<string>(
+      "baffi-west",
       "mummia-infernale",
       "canzone-panda",
       "re-fiori",
@@ -185,6 +187,7 @@ export const hardwiredSections = List.of<Section>(
     id: "matta-mummia",
     name: "Matta mummia",
     compositionIds: List.of<string>(
+      "baffi-west",
       "mummia-infernale",
       "canzone-panda",
       "re-fiori",
@@ -247,6 +250,7 @@ export const hardwiredSections = List.of<Section>(
     id: "personaggi-gentili",
     name: "Personaggi gentili",
     compositionIds: List.of<string>(
+      "baffi-west",
       "mummia-infernale",
       "canzone-panda",
       "re-fiori",
@@ -268,6 +272,7 @@ export const hardwiredSections = List.of<Section>(
     id: "amore",
     name: "Amore",
     compositionIds: List.of<string>(
+      "baffi-west",
       "mummia-infernale",
       "canzone-panda",
       "sir-lancibbaffo",
@@ -296,6 +301,7 @@ export const hardwiredSections = List.of<Section>(
     id: "filosofia",
     name: "Filosofia",
     compositionIds: List.of<string>(
+      "baffi-west",
       "mummia-infernale",
       "canzone-panda",
       "re-fiori",
@@ -321,6 +327,7 @@ export const hardwiredSections = List.of<Section>(
     id: "vespro",
     name: "Pensieri nel vespro",
     compositionIds: List.of<string>(
+      "baffi-west",
       "re-fiori",
       "apocalissi-scimmiesca",
       "regno-tramonto",
@@ -370,6 +377,7 @@ export const hardwiredSections = List.of<Section>(
     id: "sole",
     name: "Quadri solari",
     compositionIds: List.of<string>(
+      "baffi-west",
       "regno-tramonto",
       "drago-farfalla",
       "zenit-aurato",
@@ -399,6 +407,7 @@ export const hardwiredSections = List.of<Section>(
     id: "rima-alternata",
     name: "Rima alternata",
     compositionIds: List.of<string>(
+      "baffi-west",
       "mummia-infernale",
       "re-fiori",
       "regno-tramonto",
@@ -485,6 +494,7 @@ export const hardwiredSections = List.of<Section>(
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: List.of<string>(
+      "baffi-west",
       "mummia-infernale",
       "canzone-panda",
       "re-fiori",
@@ -550,6 +560,7 @@ export const hardwiredSections = List.of<Section>(
     id: "poesie",
     name: "Poesie",
     compositionIds: List.of<string>(
+      "baffi-west",
       "mummia-infernale",
       "canzone-panda",
       "re-fiori",
