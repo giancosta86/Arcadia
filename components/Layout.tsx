@@ -22,7 +22,11 @@ export const Layout = ({ children, mainClass, title }: LayoutProps) => {
       <Head>
         <title>{title ?? Site.longTitle}</title>
 
-        <link rel="icon" href={Site.getAbsolutePath("/favicon.ico")} />
+        <link rel="icon" href={Site.getAbsolutePath("/favicon.png")} />
+        <link
+          rel="apple-touch-icon"
+          href={Site.getAbsolutePath("/favicon.png")}
+        ></link>
         <meta name="author" content="Gianluca Costa" />
         <meta name="description" content="Dreams and Poetry" />
         <meta name="version" content={packageInfo.version} />
