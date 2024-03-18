@@ -6,6 +6,7 @@ export const hardwiredSections = List.of<Section>(
     id: "season-4",
     name: "Season 4",
     compositionIds: List.of<string>(
+      "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
       "canzone-panda",
@@ -122,6 +123,7 @@ export const hardwiredSections = List.of<Section>(
     id: "poeta",
     name: "Il poeta",
     compositionIds: List.of<string>(
+      "maiale-incipriato",
       "apocalissi-scimmiesca",
       "sir-lancibbaffo",
       "gnomo-furetto",
@@ -160,6 +162,7 @@ export const hardwiredSections = List.of<Section>(
     id: "drago-oriente",
     name: "Drago d'Oriente",
     compositionIds: List.of<string>(
+      "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
       "canzone-panda",
@@ -173,6 +176,7 @@ export const hardwiredSections = List.of<Section>(
     id: "drago-infernale",
     name: "Drago infernale",
     compositionIds: List.of<string>(
+      "maiale-incipriato",
       "mummia-infernale",
       "canzone-panda",
       "re-fiori",
@@ -187,6 +191,7 @@ export const hardwiredSections = List.of<Section>(
     id: "matta-mummia",
     name: "Matta mummia",
     compositionIds: List.of<string>(
+      "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
       "canzone-panda",
@@ -456,6 +461,7 @@ export const hardwiredSections = List.of<Section>(
     id: "rima-incrociata",
     name: "Rima incrociata",
     compositionIds: List.of<string>(
+      "maiale-incipriato",
       "canzone-panda",
       "apocalissi-scimmiesca",
       "sir-lancibbaffo",
@@ -494,6 +500,7 @@ export const hardwiredSections = List.of<Section>(
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: List.of<string>(
+      "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
       "canzone-panda",
@@ -560,6 +567,7 @@ export const hardwiredSections = List.of<Section>(
     id: "poesie",
     name: "Poesie",
     compositionIds: List.of<string>(
+      "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
       "canzone-panda",
