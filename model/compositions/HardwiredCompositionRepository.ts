@@ -7,7 +7,7 @@ import { CompositionComp } from "./CompositionComp";
 import { OrderedHashMap } from "@rimbu/ordered";
 
 export class HardwiredCompositionRepository implements CompositionRepository {
-  private readonly compositionsById: RMap<string, Composition>;
+  private readonly compositionsById: RMap.NonEmpty<string, Composition>;
 
   constructor() {
     this.compositionsById = OrderedHashMap.from(
