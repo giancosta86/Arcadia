@@ -1,20 +1,20 @@
 {
   "name": "arcadia",
-  "version": "6.7.0",
+  "version": "6.8.0",
   "private": true,
   "scripts": {
     "clean": "rimraf .next out",
-    "clean:all": "yarn clean && rimraf node_modules",
+    "clean:all": "pnpm clean && rimraf node_modules",
     "format": "prettier --write .",
-    "check-all": "yarn check-format && yarn lint",
+    "check-all": "pnpm check-format && pnpm lint",
     "check-format": "prettier --check .",
     "lint": "next lint",
-    "build": "yarn check-all && next build",
-    "start": "yarn dev",
+    "build": "pnpm check-all && next build",
+    "start": "pnpm dev",
     "dev": "next dev -- -H 0.0.0.0",
     "prod": "next start",
     "export": "next export",
-    "rebuild": "yarn clean && yarn build && yarn export"
+    "rebuild": "pnpm clean && pnpm build && pnpm export"
   },
   "dependencies": {
     "@giancosta86/hermes": "^1.0.4",
