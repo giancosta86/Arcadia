@@ -6,7 +6,7 @@ import { SectionRepository } from "./SectionRepository";
 import { hardwiredSections } from "./hardwiredSections";
 
 export class HardwiredSectionRepository implements SectionRepository {
-  private readonly sectionsById: RMap<string, Section>;
+  private readonly sectionsById: RMap.NonEmpty<string, Section>;
 
   constructor() {
     this.sectionsById = OrderedHashMap.from(
