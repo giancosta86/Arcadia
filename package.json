@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@giancosta86/hermes": "^1.0.4",
-    "@giancosta86/hermes-react": "^3.0.0",
+    "@giancosta86/hermes-react": "3.0.0",
     "@giancosta86/time-utils": "^3.0.0",
     "@rimbu/collection-types": "^1.1.0",
     "@rimbu/common": "^1.1.0",
@@ -38,7 +38,7 @@
     "prettier": "^3.0.1",
     "rimraf": "^5.0.1",
     "sass": "^1.57.1",
-    "typescript": "^5.1.6"
+    "typescript": "~5.3"
   },
   "engines": {
     "node": ">=18.17.1"
