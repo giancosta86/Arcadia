@@ -6,6 +6,7 @@ export const hardwiredSections = List.of<Section>(
     id: "season-4",
     name: "Season 4",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
@@ -80,6 +81,7 @@ export const hardwiredSections = List.of<Section>(
     id: "cavalier-aurora",
     name: "Cavalier dell'Aurora",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "nel-vespro",
       "cavalier-aurora",
       "lai-passero",
@@ -103,6 +105,7 @@ export const hardwiredSections = List.of<Section>(
     id: "luna",
     name: "La luna",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "canzone-panda",
       "re-fiori",
       "regno-tramonto",
@@ -162,6 +165,7 @@ export const hardwiredSections = List.of<Section>(
     id: "drago-oriente",
     name: "Drago d'Oriente",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
@@ -176,6 +180,7 @@ export const hardwiredSections = List.of<Section>(
     id: "drago-infernale",
     name: "Drago infernale",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "maiale-incipriato",
       "mummia-infernale",
       "canzone-panda",
@@ -191,6 +196,7 @@ export const hardwiredSections = List.of<Section>(
     id: "matta-mummia",
     name: "Matta mummia",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
@@ -203,6 +209,7 @@ export const hardwiredSections = List.of<Section>(
     id: "gnomo-furetto-iena",
     name: "Gnomo, furetto, iena",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "mummia-infernale",
       "apocalissi-scimmiesca",
       "sir-lancibbaffo",
@@ -255,6 +262,7 @@ export const hardwiredSections = List.of<Section>(
     id: "personaggi-gentili",
     name: "Personaggi gentili",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "baffi-west",
       "mummia-infernale",
       "canzone-panda",
@@ -277,6 +285,7 @@ export const hardwiredSections = List.of<Section>(
     id: "amore",
     name: "Amore",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "baffi-west",
       "mummia-infernale",
       "canzone-panda",
@@ -306,6 +315,7 @@ export const hardwiredSections = List.of<Section>(
     id: "filosofia",
     name: "Filosofia",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "baffi-west",
       "mummia-infernale",
       "canzone-panda",
@@ -412,6 +422,7 @@ export const hardwiredSections = List.of<Section>(
     id: "rima-alternata",
     name: "Rima alternata",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "baffi-west",
       "mummia-infernale",
       "re-fiori",
@@ -500,6 +511,7 @@ export const hardwiredSections = List.of<Section>(
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
@@ -567,6 +579,7 @@ export const hardwiredSections = List.of<Section>(
     id: "poesie",
     name: "Poesie",
     compositionIds: List.of<string>(
+      "ingegner-pecorone",
       "maiale-incipriato",
       "baffi-west",
       "mummia-infernale",
