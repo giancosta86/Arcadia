@@ -1,6 +1,6 @@
 {
   "name": "arcadia",
-  "version": "6.10.0",
+  "version": "6.11.0",
   "private": true,
   "scripts": {
     "clean": "rimraf .next out",
