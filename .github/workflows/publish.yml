@@ -1,0 +1,33 @@
+name: Publish crate
+
+on:
+  pull_request:
+    types: closed
+    branches: main
+
+  workflow_dispatch:
+
+jobs:
+  publish:
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true) }}
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: giancosta86/aurora-github/actions/inject-branch-version@v4.0.0
+
+      - uses: giancosta86/aurora-github/actions/setup-nodejs-context@v4.0.0
+
+      - run: pnpm build
+
+      - uses: giancosta86/aurora-github/actions/publish-github-pages@v4.0.0
+        with:
+          source-directory: out
+
+      - uses: giancosta86/aurora-github/actions/tag-and-release@v4.0.0
