@@ -7,15 +7,16 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   publish:
     if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true) }}
 
     runs-on: ubuntu-latest
-
-    permissions:
-      pages: write
-      id-token: write
 
     steps:
       - uses: actions/checkout@v4
@@ -29,6 +30,5 @@ jobs:
       - uses: giancosta86/aurora-github/actions/publish-github-pages@v4.0.0
         with:
           source-directory: out
-          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: giancosta86/aurora-github/actions/tag-and-release@v4.0.0
