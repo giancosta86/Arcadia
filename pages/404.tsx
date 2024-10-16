@@ -6,7 +6,7 @@ export default function Custom404() {
     <Layout mainClass="not-found-page">
       <p>
         It seems you have requested a resource currently not available within
-        Arcadia! ^__^
+        Arcadia! ☺️
       </p>
 
       <p>
