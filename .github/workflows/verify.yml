@@ -19,8 +19,3 @@ jobs:
       - uses: giancosta86/aurora-github/actions/verify-npm-package@v6.0.0
         with:
           enforce-esm: false
-
-      - uses: giancosta86/aurora-github/actions/publish-github-pages@v6.0.0
-        with:
-          source-directory: .
-          dry-run: true
