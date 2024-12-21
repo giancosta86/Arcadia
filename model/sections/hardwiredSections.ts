@@ -6,6 +6,7 @@ export const hardwiredSections = List.of<Section>(
     id: "season-4",
     name: "Season 4",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "ingegner-pecorone",
       "maiale-incipriato",
@@ -127,6 +128,7 @@ export const hardwiredSections = List.of<Section>(
     id: "poeta",
     name: "Il poeta",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "maiale-incipriato",
       "apocalissi-scimmiesca",
@@ -167,6 +169,7 @@ export const hardwiredSections = List.of<Section>(
     id: "drago-oriente",
     name: "Drago d'Oriente",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "ingegner-pecorone",
       "maiale-incipriato",
@@ -183,6 +186,7 @@ export const hardwiredSections = List.of<Section>(
     id: "drago-infernale",
     name: "Drago infernale",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "ingegner-pecorone",
       "maiale-incipriato",
@@ -200,6 +204,7 @@ export const hardwiredSections = List.of<Section>(
     id: "matta-mummia",
     name: "Matta mummia",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "ingegner-pecorone",
       "maiale-incipriato",
@@ -227,6 +232,7 @@ export const hardwiredSections = List.of<Section>(
     id: "natura",
     name: "Quadri nella natura",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "canzone-panda",
       "re-fiori",
@@ -252,6 +258,7 @@ export const hardwiredSections = List.of<Section>(
     id: "brio",
     name: "Momenti briosi",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "regno-tramonto",
       "la-gilda",
       "sfida-kebab",
@@ -268,6 +275,7 @@ export const hardwiredSections = List.of<Section>(
     id: "personaggi-gentili",
     name: "Personaggi gentili",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "ingegner-pecorone",
       "baffi-west",
@@ -292,6 +300,7 @@ export const hardwiredSections = List.of<Section>(
     id: "amore",
     name: "Amore",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "ingegner-pecorone",
       "baffi-west",
@@ -323,6 +332,7 @@ export const hardwiredSections = List.of<Section>(
     id: "filosofia",
     name: "Filosofia",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "ingegner-pecorone",
       "baffi-west",
@@ -401,6 +411,7 @@ export const hardwiredSections = List.of<Section>(
     id: "sole",
     name: "Quadri solari",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "baffi-west",
       "regno-tramonto",
       "drago-farfalla",
@@ -494,7 +505,7 @@ export const hardwiredSections = List.of<Section>(
   {
     id: "terzine-incatenate",
     name: "Terzine incatenate",
-    compositionIds: List.of<string>("sfumature-drago")
+    compositionIds: List.of<string>("tortino-discordia", "sfumature-drago")
   },
   {
     id: "rima-dimezzata",
@@ -525,6 +536,7 @@ export const hardwiredSections = List.of<Section>(
     id: "italiano",
     name: "Brani in Italiano",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "ingegner-pecorone",
       "maiale-incipriato",
@@ -594,6 +606,7 @@ export const hardwiredSections = List.of<Section>(
     id: "poesie",
     name: "Poesie",
     compositionIds: List.of<string>(
+      "tortino-discordia",
       "sfumature-drago",
       "ingegner-pecorone",
       "maiale-incipriato",
